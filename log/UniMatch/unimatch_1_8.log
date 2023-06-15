@@ -1,0 +1,1697 @@
+nohup: ignoring input
+[2023-06-12 20:05:24,464][    INFO] {'backbone': 'resnet50',
+ 'batch_size': 8,
+ 'conf_thresh': 0.95,
+ 'config': '/root/UniMatch/configs/pascal.yaml',
+ 'criterion': {'kwargs': {'ignore_index': 255}, 'name': 'CELoss'},
+ 'crop_size': 321,
+ 'data_root': '/root/UniMatch/dataset/VOC2012',
+ 'dataset': 'pascal',
+ 'dilations': [6, 12, 18],
+ 'epochs': 80,
+ 'labeled_id_path': 'splits/pascal/1_8/labeled.txt',
+ 'local_rank': 0,
+ 'lr': 0.001,
+ 'lr_multi': 10.0,
+ 'model': 'deeplabv3plus',
+ 'nclass': 21,
+ 'ngpus': 1,
+ 'port': None,
+ 'replace_stride_with_dilation': [False, False, True],
+ 'save_path': '/root/UniMatch/exp/pascal/unimatch/r50/1_8',
+ 'unlabeled_id_path': 'splits/pascal/1_8/unlabeled.txt'}
+
+[2023-06-12 20:05:29,268][    INFO] ===========> Epoch: 0, LR: 0.00100, Previous best: 0.00
+[2023-06-12 20:05:34,288][    INFO] Iters: 0, Total loss: 1.552, Loss x: 3.105, Loss s: 0.000, Loss w_fp: 0.000, Mask ratio: 0.000
+[2023-06-12 20:07:26,497][    INFO] Iters: 144, Total loss: 0.609, Loss x: 1.194, Loss s: 0.033, Loss w_fp: 0.016, Mask ratio: 0.203
+[2023-06-12 20:09:18,749][    INFO] Iters: 288, Total loss: 0.498, Loss x: 0.968, Loss s: 0.042, Loss w_fp: 0.013, Mask ratio: 0.264
+[2023-06-12 20:11:10,859][    INFO] Iters: 432, Total loss: 0.444, Loss x: 0.858, Loss s: 0.048, Loss w_fp: 0.012, Mask ratio: 0.310
+[2023-06-12 20:13:03,301][    INFO] Iters: 576, Total loss: 0.412, Loss x: 0.792, Loss s: 0.052, Loss w_fp: 0.012, Mask ratio: 0.342
+[2023-06-12 20:14:56,070][    INFO] Iters: 720, Total loss: 0.385, Loss x: 0.737, Loss s: 0.057, Loss w_fp: 0.012, Mask ratio: 0.363
+[2023-06-12 20:16:48,392][    INFO] Iters: 864, Total loss: 0.369, Loss x: 0.702, Loss s: 0.061, Loss w_fp: 0.012, Mask ratio: 0.378
+[2023-06-12 20:18:40,582][    INFO] Iters: 1008, Total loss: 0.354, Loss x: 0.669, Loss s: 0.065, Loss w_fp: 0.012, Mask ratio: 0.389
+[2023-06-12 20:20:32,434][    INFO] Iters: 1152, Total loss: 0.339, Loss x: 0.638, Loss s: 0.067, Loss w_fp: 0.012, Mask ratio: 0.402
+[2023-06-12 20:20:35,481][    INFO] ===========> Epoch: 1, LR: 0.00099, Previous best: 0.00
+[2023-06-12 20:20:36,222][    INFO] Iters: 0, Total loss: 0.153, Loss x: 0.290, Loss s: 0.029, Loss w_fp: 0.005, Mask ratio: 0.497
+[2023-06-12 20:22:27,877][    INFO] Iters: 144, Total loss: 0.220, Loss x: 0.393, Loss s: 0.083, Loss w_fp: 0.011, Mask ratio: 0.512
+[2023-06-12 20:24:19,992][    INFO] Iters: 288, Total loss: 0.214, Loss x: 0.381, Loss s: 0.081, Loss w_fp: 0.011, Mask ratio: 0.512
+[2023-06-12 20:26:11,713][    INFO] Iters: 432, Total loss: 0.209, Loss x: 0.372, Loss s: 0.082, Loss w_fp: 0.011, Mask ratio: 0.525
+[2023-06-12 20:28:04,186][    INFO] Iters: 576, Total loss: 0.207, Loss x: 0.365, Loss s: 0.086, Loss w_fp: 0.012, Mask ratio: 0.536
+[2023-06-12 20:29:57,119][    INFO] Iters: 720, Total loss: 0.204, Loss x: 0.358, Loss s: 0.088, Loss w_fp: 0.012, Mask ratio: 0.542
+[2023-06-12 20:31:48,971][    INFO] Iters: 864, Total loss: 0.201, Loss x: 0.352, Loss s: 0.090, Loss w_fp: 0.012, Mask ratio: 0.547
+[2023-06-12 20:33:40,748][    INFO] Iters: 1008, Total loss: 0.199, Loss x: 0.345, Loss s: 0.091, Loss w_fp: 0.012, Mask ratio: 0.551
+[2023-06-12 20:35:32,656][    INFO] Iters: 1152, Total loss: 0.197, Loss x: 0.341, Loss s: 0.091, Loss w_fp: 0.013, Mask ratio: 0.552
+[2023-06-12 20:35:35,779][    INFO] ===========> Epoch: 2, LR: 0.00098, Previous best: 0.00
+[2023-06-12 20:35:36,533][    INFO] Iters: 0, Total loss: 0.140, Loss x: 0.239, Loss s: 0.072, Loss w_fp: 0.011, Mask ratio: 0.624
+[2023-06-12 20:37:28,136][    INFO] Iters: 144, Total loss: 0.167, Loss x: 0.279, Loss s: 0.100, Loss w_fp: 0.011, Mask ratio: 0.607
+[2023-06-12 20:39:19,757][    INFO] Iters: 288, Total loss: 0.168, Loss x: 0.283, Loss s: 0.097, Loss w_fp: 0.010, Mask ratio: 0.596
+[2023-06-12 20:41:12,074][    INFO] Iters: 432, Total loss: 0.167, Loss x: 0.279, Loss s: 0.101, Loss w_fp: 0.010, Mask ratio: 0.599
+[2023-06-12 20:43:04,935][    INFO] Iters: 576, Total loss: 0.164, Loss x: 0.273, Loss s: 0.101, Loss w_fp: 0.011, Mask ratio: 0.607
+[2023-06-12 20:44:57,395][    INFO] Iters: 720, Total loss: 0.163, Loss x: 0.267, Loss s: 0.104, Loss w_fp: 0.012, Mask ratio: 0.611
+[2023-06-12 20:46:49,709][    INFO] Iters: 864, Total loss: 0.161, Loss x: 0.265, Loss s: 0.104, Loss w_fp: 0.012, Mask ratio: 0.612
+[2023-06-12 20:48:41,567][    INFO] Iters: 1008, Total loss: 0.161, Loss x: 0.263, Loss s: 0.105, Loss w_fp: 0.012, Mask ratio: 0.613
+[2023-06-12 20:50:34,077][    INFO] Iters: 1152, Total loss: 0.159, Loss x: 0.259, Loss s: 0.105, Loss w_fp: 0.012, Mask ratio: 0.612
+[2023-06-12 20:50:37,240][    INFO] ===========> Epoch: 3, LR: 0.00097, Previous best: 0.00
+[2023-06-12 20:50:38,023][    INFO] Iters: 0, Total loss: 0.086, Loss x: 0.149, Loss s: 0.037, Loss w_fp: 0.011, Mask ratio: 0.655
+[2023-06-12 20:52:29,294][    INFO] Iters: 144, Total loss: 0.137, Loss x: 0.217, Loss s: 0.102, Loss w_fp: 0.011, Mask ratio: 0.641
+[2023-06-12 20:54:21,667][    INFO] Iters: 288, Total loss: 0.138, Loss x: 0.222, Loss s: 0.097, Loss w_fp: 0.011, Mask ratio: 0.635
+[2023-06-12 20:56:13,618][    INFO] Iters: 432, Total loss: 0.139, Loss x: 0.222, Loss s: 0.100, Loss w_fp: 0.012, Mask ratio: 0.641
+[2023-06-12 20:58:06,560][    INFO] Iters: 576, Total loss: 0.139, Loss x: 0.221, Loss s: 0.104, Loss w_fp: 0.012, Mask ratio: 0.646
+[2023-06-12 20:59:59,169][    INFO] Iters: 720, Total loss: 0.140, Loss x: 0.219, Loss s: 0.108, Loss w_fp: 0.012, Mask ratio: 0.649
+[2023-06-12 21:01:51,281][    INFO] Iters: 864, Total loss: 0.139, Loss x: 0.219, Loss s: 0.108, Loss w_fp: 0.012, Mask ratio: 0.649
+[2023-06-12 21:03:43,251][    INFO] Iters: 1008, Total loss: 0.139, Loss x: 0.217, Loss s: 0.109, Loss w_fp: 0.012, Mask ratio: 0.647
+[2023-06-12 21:05:36,330][    INFO] Iters: 1152, Total loss: 0.138, Loss x: 0.216, Loss s: 0.109, Loss w_fp: 0.012, Mask ratio: 0.646
+[2023-06-12 21:05:39,485][    INFO] ===========> Epoch: 4, LR: 0.00095, Previous best: 0.00
+[2023-06-12 21:05:40,250][    INFO] Iters: 0, Total loss: 0.119, Loss x: 0.180, Loss s: 0.111, Loss w_fp: 0.007, Mask ratio: 0.730
+[2023-06-12 21:07:32,007][    INFO] Iters: 144, Total loss: 0.125, Loss x: 0.191, Loss s: 0.109, Loss w_fp: 0.010, Mask ratio: 0.666
+[2023-06-12 21:09:24,414][    INFO] Iters: 288, Total loss: 0.122, Loss x: 0.189, Loss s: 0.101, Loss w_fp: 0.010, Mask ratio: 0.664
+[2023-06-12 21:11:16,991][    INFO] Iters: 432, Total loss: 0.125, Loss x: 0.194, Loss s: 0.100, Loss w_fp: 0.011, Mask ratio: 0.665
+[2023-06-12 21:13:09,961][    INFO] Iters: 576, Total loss: 0.129, Loss x: 0.201, Loss s: 0.101, Loss w_fp: 0.011, Mask ratio: 0.668
+[2023-06-12 21:15:03,059][    INFO] Iters: 720, Total loss: 0.128, Loss x: 0.199, Loss s: 0.104, Loss w_fp: 0.012, Mask ratio: 0.668
+[2023-06-12 21:16:56,202][    INFO] Iters: 864, Total loss: 0.128, Loss x: 0.197, Loss s: 0.104, Loss w_fp: 0.012, Mask ratio: 0.669
+[2023-06-12 21:18:48,591][    INFO] Iters: 1008, Total loss: 0.127, Loss x: 0.195, Loss s: 0.106, Loss w_fp: 0.012, Mask ratio: 0.670
+[2023-06-12 21:20:41,066][    INFO] Iters: 1152, Total loss: 0.126, Loss x: 0.193, Loss s: 0.106, Loss w_fp: 0.012, Mask ratio: 0.669
+[2023-06-12 21:21:43,506][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 91.19
+[2023-06-12 21:21:43,506][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 79.59
+[2023-06-12 21:21:43,506][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 37.46
+[2023-06-12 21:21:43,506][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 77.83
+[2023-06-12 21:21:43,506][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 59.70
+[2023-06-12 21:21:43,506][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 67.65
+[2023-06-12 21:21:43,506][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 89.67
+[2023-06-12 21:21:43,506][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 79.55
+[2023-06-12 21:21:43,506][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 81.94
+[2023-06-12 21:21:43,506][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 24.75
+[2023-06-12 21:21:43,506][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 63.73
+[2023-06-12 21:21:43,507][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 45.00
+[2023-06-12 21:21:43,507][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 75.00
+[2023-06-12 21:21:43,507][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 66.36
+[2023-06-12 21:21:43,507][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 75.27
+[2023-06-12 21:21:43,507][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 77.15
+[2023-06-12 21:21:43,507][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 44.45
+[2023-06-12 21:21:43,507][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 71.10
+[2023-06-12 21:21:43,507][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 37.93
+[2023-06-12 21:21:43,507][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 81.55
+[2023-06-12 21:21:43,507][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 66.79
+[2023-06-12 21:21:43,507][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 66.36
+
+[2023-06-12 21:21:44,532][    INFO] ===========> Epoch: 5, LR: 0.00094, Previous best: 66.36
+[2023-06-12 21:21:45,309][    INFO] Iters: 0, Total loss: 0.120, Loss x: 0.133, Loss s: 0.206, Loss w_fp: 0.007, Mask ratio: 0.741
+[2023-06-12 21:23:36,669][    INFO] Iters: 144, Total loss: 0.109, Loss x: 0.161, Loss s: 0.102, Loss w_fp: 0.011, Mask ratio: 0.698
+[2023-06-12 21:25:29,242][    INFO] Iters: 288, Total loss: 0.117, Loss x: 0.180, Loss s: 0.098, Loss w_fp: 0.010, Mask ratio: 0.686
+[2023-06-12 21:27:21,180][    INFO] Iters: 432, Total loss: 0.120, Loss x: 0.185, Loss s: 0.101, Loss w_fp: 0.011, Mask ratio: 0.684
+[2023-06-12 21:29:13,584][    INFO] Iters: 576, Total loss: 0.119, Loss x: 0.182, Loss s: 0.101, Loss w_fp: 0.011, Mask ratio: 0.687
+[2023-06-12 21:31:05,914][    INFO] Iters: 720, Total loss: 0.118, Loss x: 0.178, Loss s: 0.104, Loss w_fp: 0.011, Mask ratio: 0.688
+[2023-06-12 21:32:58,336][    INFO] Iters: 864, Total loss: 0.118, Loss x: 0.178, Loss s: 0.104, Loss w_fp: 0.011, Mask ratio: 0.687
+[2023-06-12 21:34:50,775][    INFO] Iters: 1008, Total loss: 0.117, Loss x: 0.176, Loss s: 0.104, Loss w_fp: 0.011, Mask ratio: 0.687
+[2023-06-12 21:36:43,764][    INFO] Iters: 1152, Total loss: 0.116, Loss x: 0.175, Loss s: 0.104, Loss w_fp: 0.011, Mask ratio: 0.686
+[2023-06-12 21:36:46,875][    INFO] ===========> Epoch: 6, LR: 0.00093, Previous best: 66.36
+[2023-06-12 21:36:47,645][    INFO] Iters: 0, Total loss: 0.109, Loss x: 0.142, Loss s: 0.145, Loss w_fp: 0.006, Mask ratio: 0.676
+[2023-06-12 21:38:38,971][    INFO] Iters: 144, Total loss: 0.105, Loss x: 0.153, Loss s: 0.104, Loss w_fp: 0.009, Mask ratio: 0.706
+[2023-06-12 21:40:31,832][    INFO] Iters: 288, Total loss: 0.105, Loss x: 0.155, Loss s: 0.100, Loss w_fp: 0.009, Mask ratio: 0.693
+[2023-06-12 21:42:24,101][    INFO] Iters: 432, Total loss: 0.106, Loss x: 0.157, Loss s: 0.102, Loss w_fp: 0.009, Mask ratio: 0.700
+[2023-06-12 21:44:16,660][    INFO] Iters: 576, Total loss: 0.108, Loss x: 0.160, Loss s: 0.102, Loss w_fp: 0.010, Mask ratio: 0.703
+[2023-06-12 21:46:09,618][    INFO] Iters: 720, Total loss: 0.109, Loss x: 0.161, Loss s: 0.104, Loss w_fp: 0.010, Mask ratio: 0.703
+[2023-06-12 21:48:02,074][    INFO] Iters: 864, Total loss: 0.108, Loss x: 0.159, Loss s: 0.102, Loss w_fp: 0.010, Mask ratio: 0.707
+[2023-06-12 21:49:54,597][    INFO] Iters: 1008, Total loss: 0.107, Loss x: 0.157, Loss s: 0.104, Loss w_fp: 0.011, Mask ratio: 0.707
+[2023-06-12 21:51:47,134][    INFO] Iters: 1152, Total loss: 0.107, Loss x: 0.156, Loss s: 0.105, Loss w_fp: 0.011, Mask ratio: 0.706
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 91.84
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 83.08
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 40.55
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 83.30
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 60.72
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 70.44
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 88.46
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 82.20
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 84.19
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 26.43
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 77.83
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 50.46
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 77.28
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 72.58
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 77.40
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 78.80
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 47.86
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 77.78
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 39.98
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 81.94
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 57.91
+[2023-06-12 21:52:14,698][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 69.10
+
+[2023-06-12 21:52:15,590][    INFO] ===========> Epoch: 7, LR: 0.00092, Previous best: 69.10
+[2023-06-12 21:52:16,402][    INFO] Iters: 0, Total loss: 0.085, Loss x: 0.134, Loss s: 0.070, Loss w_fp: 0.005, Mask ratio: 0.711
+[2023-06-12 21:54:07,986][    INFO] Iters: 144, Total loss: 0.101, Loss x: 0.146, Loss s: 0.102, Loss w_fp: 0.011, Mask ratio: 0.720
+[2023-06-12 21:55:59,870][    INFO] Iters: 288, Total loss: 0.098, Loss x: 0.143, Loss s: 0.094, Loss w_fp: 0.010, Mask ratio: 0.715
+[2023-06-12 21:57:51,528][    INFO] Iters: 432, Total loss: 0.097, Loss x: 0.142, Loss s: 0.095, Loss w_fp: 0.010, Mask ratio: 0.717
+[2023-06-12 21:59:43,923][    INFO] Iters: 576, Total loss: 0.098, Loss x: 0.141, Loss s: 0.098, Loss w_fp: 0.011, Mask ratio: 0.721
+[2023-06-12 22:01:36,130][    INFO] Iters: 720, Total loss: 0.098, Loss x: 0.141, Loss s: 0.100, Loss w_fp: 0.011, Mask ratio: 0.723
+[2023-06-12 22:03:28,561][    INFO] Iters: 864, Total loss: 0.099, Loss x: 0.143, Loss s: 0.101, Loss w_fp: 0.011, Mask ratio: 0.722
+[2023-06-12 22:05:20,705][    INFO] Iters: 1008, Total loss: 0.099, Loss x: 0.142, Loss s: 0.103, Loss w_fp: 0.011, Mask ratio: 0.722
+[2023-06-12 22:07:13,537][    INFO] Iters: 1152, Total loss: 0.099, Loss x: 0.141, Loss s: 0.103, Loss w_fp: 0.011, Mask ratio: 0.721
+[2023-06-12 22:07:16,742][    INFO] ===========> Epoch: 8, LR: 0.00091, Previous best: 69.10
+[2023-06-12 22:07:17,490][    INFO] Iters: 0, Total loss: 0.087, Loss x: 0.127, Loss s: 0.085, Loss w_fp: 0.009, Mask ratio: 0.781
+[2023-06-12 22:09:09,376][    INFO] Iters: 144, Total loss: 0.094, Loss x: 0.140, Loss s: 0.087, Loss w_fp: 0.009, Mask ratio: 0.727
+[2023-06-12 22:11:02,127][    INFO] Iters: 288, Total loss: 0.097, Loss x: 0.141, Loss s: 0.095, Loss w_fp: 0.009, Mask ratio: 0.718
+[2023-06-12 22:12:54,606][    INFO] Iters: 432, Total loss: 0.099, Loss x: 0.144, Loss s: 0.099, Loss w_fp: 0.010, Mask ratio: 0.720
+[2023-06-12 22:14:47,569][    INFO] Iters: 576, Total loss: 0.100, Loss x: 0.145, Loss s: 0.099, Loss w_fp: 0.010, Mask ratio: 0.723
+[2023-06-12 22:16:40,165][    INFO] Iters: 720, Total loss: 0.098, Loss x: 0.142, Loss s: 0.100, Loss w_fp: 0.010, Mask ratio: 0.723
+[2023-06-12 22:18:32,575][    INFO] Iters: 864, Total loss: 0.098, Loss x: 0.140, Loss s: 0.100, Loss w_fp: 0.010, Mask ratio: 0.725
+[2023-06-12 22:20:24,699][    INFO] Iters: 1008, Total loss: 0.098, Loss x: 0.140, Loss s: 0.101, Loss w_fp: 0.011, Mask ratio: 0.723
+[2023-06-12 22:22:18,097][    INFO] Iters: 1152, Total loss: 0.097, Loss x: 0.139, Loss s: 0.101, Loss w_fp: 0.011, Mask ratio: 0.721
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 91.83
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 84.33
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 40.66
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 84.14
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 59.75
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 71.24
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 89.98
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 82.49
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 85.77
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 22.05
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 79.01
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 45.09
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 83.12
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 78.47
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 78.08
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 78.57
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 52.41
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 77.00
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 31.15
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 82.30
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 67.03
+[2023-06-12 22:22:45,556][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 69.74
+
+[2023-06-12 22:22:46,572][    INFO] ===========> Epoch: 9, LR: 0.00090, Previous best: 69.74
+[2023-06-12 22:22:47,330][    INFO] Iters: 0, Total loss: 0.096, Loss x: 0.111, Loss s: 0.150, Loss w_fp: 0.012, Mask ratio: 0.823
+[2023-06-12 22:24:38,903][    INFO] Iters: 144, Total loss: 0.087, Loss x: 0.120, Loss s: 0.098, Loss w_fp: 0.009, Mask ratio: 0.733
+[2023-06-12 22:26:31,593][    INFO] Iters: 288, Total loss: 0.089, Loss x: 0.123, Loss s: 0.099, Loss w_fp: 0.009, Mask ratio: 0.736
+[2023-06-12 22:28:24,267][    INFO] Iters: 432, Total loss: 0.089, Loss x: 0.125, Loss s: 0.097, Loss w_fp: 0.009, Mask ratio: 0.735
+[2023-06-12 22:30:16,778][    INFO] Iters: 576, Total loss: 0.090, Loss x: 0.126, Loss s: 0.098, Loss w_fp: 0.010, Mask ratio: 0.737
+[2023-06-12 22:32:09,304][    INFO] Iters: 720, Total loss: 0.089, Loss x: 0.124, Loss s: 0.099, Loss w_fp: 0.010, Mask ratio: 0.738
+[2023-06-12 22:34:01,757][    INFO] Iters: 864, Total loss: 0.090, Loss x: 0.126, Loss s: 0.100, Loss w_fp: 0.010, Mask ratio: 0.739
+[2023-06-12 22:35:54,333][    INFO] Iters: 1008, Total loss: 0.091, Loss x: 0.127, Loss s: 0.100, Loss w_fp: 0.010, Mask ratio: 0.736
+[2023-06-12 22:37:46,816][    INFO] Iters: 1152, Total loss: 0.091, Loss x: 0.127, Loss s: 0.101, Loss w_fp: 0.010, Mask ratio: 0.733
+[2023-06-12 22:37:49,979][    INFO] ===========> Epoch: 10, LR: 0.00089, Previous best: 69.74
+[2023-06-12 22:37:50,797][    INFO] Iters: 0, Total loss: 0.093, Loss x: 0.122, Loss s: 0.112, Loss w_fp: 0.015, Mask ratio: 0.742
+[2023-06-12 22:39:42,419][    INFO] Iters: 144, Total loss: 0.088, Loss x: 0.126, Loss s: 0.090, Loss w_fp: 0.009, Mask ratio: 0.739
+[2023-06-12 22:41:34,700][    INFO] Iters: 288, Total loss: 0.086, Loss x: 0.123, Loss s: 0.089, Loss w_fp: 0.009, Mask ratio: 0.738
+[2023-06-12 22:43:26,760][    INFO] Iters: 432, Total loss: 0.086, Loss x: 0.122, Loss s: 0.092, Loss w_fp: 0.009, Mask ratio: 0.739
+[2023-06-12 22:45:19,771][    INFO] Iters: 576, Total loss: 0.087, Loss x: 0.122, Loss s: 0.094, Loss w_fp: 0.009, Mask ratio: 0.743
+[2023-06-12 22:47:12,238][    INFO] Iters: 720, Total loss: 0.086, Loss x: 0.121, Loss s: 0.094, Loss w_fp: 0.009, Mask ratio: 0.743
+[2023-06-12 22:49:04,839][    INFO] Iters: 864, Total loss: 0.086, Loss x: 0.121, Loss s: 0.094, Loss w_fp: 0.009, Mask ratio: 0.743
+[2023-06-12 22:50:57,278][    INFO] Iters: 1008, Total loss: 0.087, Loss x: 0.121, Loss s: 0.095, Loss w_fp: 0.010, Mask ratio: 0.744
+[2023-06-12 22:52:50,136][    INFO] Iters: 1152, Total loss: 0.087, Loss x: 0.121, Loss s: 0.097, Loss w_fp: 0.010, Mask ratio: 0.743
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 92.17
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 82.26
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 38.36
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 84.64
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 57.91
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 73.95
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 91.05
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 83.22
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 85.08
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 23.03
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 78.63
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 48.17
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 80.89
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 78.76
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 80.16
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 80.38
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 51.45
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 80.57
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 36.61
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 80.86
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 65.26
+[2023-06-12 22:53:17,662][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 70.16
+
+[2023-06-12 22:53:18,663][    INFO] ===========> Epoch: 11, LR: 0.00088, Previous best: 70.16
+[2023-06-12 22:53:19,404][    INFO] Iters: 0, Total loss: 0.123, Loss x: 0.118, Loss s: 0.246, Loss w_fp: 0.012, Mask ratio: 0.802
+[2023-06-12 22:55:11,126][    INFO] Iters: 144, Total loss: 0.085, Loss x: 0.116, Loss s: 0.100, Loss w_fp: 0.009, Mask ratio: 0.752
+[2023-06-12 22:57:03,685][    INFO] Iters: 288, Total loss: 0.083, Loss x: 0.115, Loss s: 0.094, Loss w_fp: 0.008, Mask ratio: 0.753
+[2023-06-12 22:58:55,966][    INFO] Iters: 432, Total loss: 0.083, Loss x: 0.114, Loss s: 0.094, Loss w_fp: 0.009, Mask ratio: 0.757
+[2023-06-12 23:00:49,081][    INFO] Iters: 576, Total loss: 0.084, Loss x: 0.114, Loss s: 0.096, Loss w_fp: 0.009, Mask ratio: 0.757
+[2023-06-12 23:02:41,512][    INFO] Iters: 720, Total loss: 0.084, Loss x: 0.115, Loss s: 0.098, Loss w_fp: 0.010, Mask ratio: 0.757
+[2023-06-12 23:04:33,798][    INFO] Iters: 864, Total loss: 0.084, Loss x: 0.114, Loss s: 0.098, Loss w_fp: 0.010, Mask ratio: 0.758
+[2023-06-12 23:06:26,085][    INFO] Iters: 1008, Total loss: 0.084, Loss x: 0.114, Loss s: 0.099, Loss w_fp: 0.010, Mask ratio: 0.758
+[2023-06-12 23:08:18,586][    INFO] Iters: 1152, Total loss: 0.084, Loss x: 0.114, Loss s: 0.099, Loss w_fp: 0.010, Mask ratio: 0.756
+[2023-06-12 23:08:21,768][    INFO] ===========> Epoch: 12, LR: 0.00086, Previous best: 70.16
+[2023-06-12 23:08:22,541][    INFO] Iters: 0, Total loss: 0.070, Loss x: 0.087, Loss s: 0.099, Loss w_fp: 0.007, Mask ratio: 0.799
+[2023-06-12 23:10:13,499][    INFO] Iters: 144, Total loss: 0.080, Loss x: 0.112, Loss s: 0.085, Loss w_fp: 0.008, Mask ratio: 0.749
+[2023-06-12 23:12:05,783][    INFO] Iters: 288, Total loss: 0.078, Loss x: 0.109, Loss s: 0.087, Loss w_fp: 0.008, Mask ratio: 0.754
+[2023-06-12 23:13:58,542][    INFO] Iters: 432, Total loss: 0.079, Loss x: 0.109, Loss s: 0.091, Loss w_fp: 0.009, Mask ratio: 0.757
+[2023-06-12 23:15:50,892][    INFO] Iters: 576, Total loss: 0.082, Loss x: 0.112, Loss s: 0.094, Loss w_fp: 0.010, Mask ratio: 0.759
+[2023-06-12 23:17:43,500][    INFO] Iters: 720, Total loss: 0.082, Loss x: 0.110, Loss s: 0.096, Loss w_fp: 0.010, Mask ratio: 0.759
+[2023-06-12 23:19:35,992][    INFO] Iters: 864, Total loss: 0.082, Loss x: 0.110, Loss s: 0.096, Loss w_fp: 0.010, Mask ratio: 0.760
+[2023-06-12 23:21:28,416][    INFO] Iters: 1008, Total loss: 0.082, Loss x: 0.111, Loss s: 0.098, Loss w_fp: 0.010, Mask ratio: 0.759
+[2023-06-12 23:23:21,217][    INFO] Iters: 1152, Total loss: 0.082, Loss x: 0.110, Loss s: 0.098, Loss w_fp: 0.010, Mask ratio: 0.756
+[2023-06-12 23:23:48,677][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 92.49
+[2023-06-12 23:23:48,677][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 83.46
+[2023-06-12 23:23:48,677][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.04
+[2023-06-12 23:23:48,677][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 83.85
+[2023-06-12 23:23:48,677][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 64.28
+[2023-06-12 23:23:48,677][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 74.02
+[2023-06-12 23:23:48,677][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 90.03
+[2023-06-12 23:23:48,677][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 83.77
+[2023-06-12 23:23:48,677][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 87.47
+[2023-06-12 23:23:48,678][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 25.30
+[2023-06-12 23:23:48,678][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 78.94
+[2023-06-12 23:23:48,678][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 48.34
+[2023-06-12 23:23:48,678][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 83.48
+[2023-06-12 23:23:48,678][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 80.27
+[2023-06-12 23:23:48,678][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 80.12
+[2023-06-12 23:23:48,678][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 81.17
+[2023-06-12 23:23:48,678][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 51.82
+[2023-06-12 23:23:48,678][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 81.29
+[2023-06-12 23:23:48,678][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 41.37
+[2023-06-12 23:23:48,678][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 81.65
+[2023-06-12 23:23:48,678][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 64.42
+[2023-06-12 23:23:48,678][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 71.41
+
+[2023-06-12 23:23:49,281][    INFO] ===========> Epoch: 13, LR: 0.00085, Previous best: 71.41
+[2023-06-12 23:23:50,039][    INFO] Iters: 0, Total loss: 0.087, Loss x: 0.108, Loss s: 0.095, Loss w_fp: 0.036, Mask ratio: 0.823
+[2023-06-12 23:25:41,630][    INFO] Iters: 144, Total loss: 0.077, Loss x: 0.105, Loss s: 0.091, Loss w_fp: 0.008, Mask ratio: 0.760
+[2023-06-12 23:27:34,068][    INFO] Iters: 288, Total loss: 0.077, Loss x: 0.105, Loss s: 0.088, Loss w_fp: 0.009, Mask ratio: 0.759
+[2023-06-12 23:29:26,030][    INFO] Iters: 432, Total loss: 0.077, Loss x: 0.105, Loss s: 0.088, Loss w_fp: 0.009, Mask ratio: 0.766
+[2023-06-12 23:31:18,971][    INFO] Iters: 576, Total loss: 0.077, Loss x: 0.106, Loss s: 0.089, Loss w_fp: 0.009, Mask ratio: 0.767
+[2023-06-12 23:33:11,239][    INFO] Iters: 720, Total loss: 0.078, Loss x: 0.105, Loss s: 0.092, Loss w_fp: 0.009, Mask ratio: 0.768
+[2023-06-12 23:35:03,935][    INFO] Iters: 864, Total loss: 0.079, Loss x: 0.106, Loss s: 0.094, Loss w_fp: 0.009, Mask ratio: 0.766
+[2023-06-12 23:36:56,597][    INFO] Iters: 1008, Total loss: 0.079, Loss x: 0.105, Loss s: 0.095, Loss w_fp: 0.009, Mask ratio: 0.767
+[2023-06-12 23:38:48,916][    INFO] Iters: 1152, Total loss: 0.079, Loss x: 0.105, Loss s: 0.096, Loss w_fp: 0.009, Mask ratio: 0.766
+[2023-06-12 23:38:52,020][    INFO] ===========> Epoch: 14, LR: 0.00084, Previous best: 71.41
+[2023-06-12 23:38:52,785][    INFO] Iters: 0, Total loss: 0.140, Loss x: 0.112, Loss s: 0.313, Loss w_fp: 0.025, Mask ratio: 0.853
+[2023-06-12 23:40:44,669][    INFO] Iters: 144, Total loss: 0.079, Loss x: 0.111, Loss s: 0.086, Loss w_fp: 0.009, Mask ratio: 0.755
+[2023-06-12 23:42:36,181][    INFO] Iters: 288, Total loss: 0.076, Loss x: 0.104, Loss s: 0.088, Loss w_fp: 0.009, Mask ratio: 0.758
+[2023-06-12 23:44:28,039][    INFO] Iters: 432, Total loss: 0.076, Loss x: 0.105, Loss s: 0.086, Loss w_fp: 0.009, Mask ratio: 0.766
+[2023-06-12 23:46:20,218][    INFO] Iters: 576, Total loss: 0.078, Loss x: 0.106, Loss s: 0.089, Loss w_fp: 0.009, Mask ratio: 0.769
+[2023-06-12 23:48:12,964][    INFO] Iters: 720, Total loss: 0.079, Loss x: 0.107, Loss s: 0.090, Loss w_fp: 0.009, Mask ratio: 0.769
+[2023-06-12 23:50:05,136][    INFO] Iters: 864, Total loss: 0.079, Loss x: 0.108, Loss s: 0.090, Loss w_fp: 0.009, Mask ratio: 0.769
+[2023-06-12 23:51:57,114][    INFO] Iters: 1008, Total loss: 0.079, Loss x: 0.107, Loss s: 0.092, Loss w_fp: 0.009, Mask ratio: 0.769
+[2023-06-12 23:53:49,156][    INFO] Iters: 1152, Total loss: 0.079, Loss x: 0.106, Loss s: 0.093, Loss w_fp: 0.010, Mask ratio: 0.767
+[2023-06-12 23:54:16,754][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 92.54
+[2023-06-12 23:54:16,754][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 84.56
+[2023-06-12 23:54:16,754][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.15
+[2023-06-12 23:54:16,754][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 85.06
+[2023-06-12 23:54:16,754][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 65.12
+[2023-06-12 23:54:16,754][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 71.91
+[2023-06-12 23:54:16,754][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 90.00
+[2023-06-12 23:54:16,755][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 83.83
+[2023-06-12 23:54:16,755][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 89.17
+[2023-06-12 23:54:16,755][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 30.14
+[2023-06-12 23:54:16,755][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 78.06
+[2023-06-12 23:54:16,755][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 48.43
+[2023-06-12 23:54:16,755][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 84.42
+[2023-06-12 23:54:16,755][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 75.84
+[2023-06-12 23:54:16,755][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 80.44
+[2023-06-12 23:54:16,755][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 81.08
+[2023-06-12 23:54:16,755][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 48.78
+[2023-06-12 23:54:16,755][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 82.68
+[2023-06-12 23:54:16,755][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 42.10
+[2023-06-12 23:54:16,755][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 81.87
+[2023-06-12 23:54:16,755][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 63.25
+[2023-06-12 23:54:16,755][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 71.50
+
+[2023-06-12 23:54:17,772][    INFO] ===========> Epoch: 15, LR: 0.00083, Previous best: 71.50
+[2023-06-12 23:54:18,536][    INFO] Iters: 0, Total loss: 0.078, Loss x: 0.085, Loss s: 0.136, Loss w_fp: 0.008, Mask ratio: 0.796
+[2023-06-12 23:56:10,887][    INFO] Iters: 144, Total loss: 0.078, Loss x: 0.108, Loss s: 0.089, Loss w_fp: 0.008, Mask ratio: 0.760
+[2023-06-12 23:58:03,257][    INFO] Iters: 288, Total loss: 0.075, Loss x: 0.103, Loss s: 0.085, Loss w_fp: 0.008, Mask ratio: 0.763
+[2023-06-12 23:59:55,029][    INFO] Iters: 432, Total loss: 0.074, Loss x: 0.101, Loss s: 0.086, Loss w_fp: 0.008, Mask ratio: 0.771
+[2023-06-13 00:01:47,824][    INFO] Iters: 576, Total loss: 0.075, Loss x: 0.101, Loss s: 0.088, Loss w_fp: 0.008, Mask ratio: 0.772
+[2023-06-13 00:03:40,693][    INFO] Iters: 720, Total loss: 0.076, Loss x: 0.102, Loss s: 0.090, Loss w_fp: 0.009, Mask ratio: 0.773
+[2023-06-13 00:05:33,603][    INFO] Iters: 864, Total loss: 0.075, Loss x: 0.101, Loss s: 0.091, Loss w_fp: 0.009, Mask ratio: 0.774
+[2023-06-13 00:07:26,315][    INFO] Iters: 1008, Total loss: 0.075, Loss x: 0.101, Loss s: 0.090, Loss w_fp: 0.009, Mask ratio: 0.774
+[2023-06-13 00:09:18,945][    INFO] Iters: 1152, Total loss: 0.075, Loss x: 0.100, Loss s: 0.092, Loss w_fp: 0.009, Mask ratio: 0.774
+[2023-06-13 00:09:22,047][    INFO] ===========> Epoch: 16, LR: 0.00082, Previous best: 71.50
+[2023-06-13 00:09:22,747][    INFO] Iters: 0, Total loss: 0.037, Loss x: 0.062, Loss s: 0.019, Loss w_fp: 0.003, Mask ratio: 0.837
+[2023-06-13 00:11:13,960][    INFO] Iters: 144, Total loss: 0.072, Loss x: 0.096, Loss s: 0.089, Loss w_fp: 0.008, Mask ratio: 0.772
+[2023-06-13 00:13:06,118][    INFO] Iters: 288, Total loss: 0.072, Loss x: 0.097, Loss s: 0.087, Loss w_fp: 0.008, Mask ratio: 0.775
+[2023-06-13 00:14:57,625][    INFO] Iters: 432, Total loss: 0.072, Loss x: 0.096, Loss s: 0.087, Loss w_fp: 0.008, Mask ratio: 0.778
+[2023-06-13 00:16:50,256][    INFO] Iters: 576, Total loss: 0.073, Loss x: 0.098, Loss s: 0.087, Loss w_fp: 0.008, Mask ratio: 0.780
+[2023-06-13 00:18:42,922][    INFO] Iters: 720, Total loss: 0.073, Loss x: 0.097, Loss s: 0.088, Loss w_fp: 0.009, Mask ratio: 0.781
+[2023-06-13 00:20:36,024][    INFO] Iters: 864, Total loss: 0.074, Loss x: 0.098, Loss s: 0.090, Loss w_fp: 0.009, Mask ratio: 0.780
+[2023-06-13 00:22:28,204][    INFO] Iters: 1008, Total loss: 0.074, Loss x: 0.098, Loss s: 0.091, Loss w_fp: 0.009, Mask ratio: 0.779
+[2023-06-13 00:24:20,637][    INFO] Iters: 1152, Total loss: 0.074, Loss x: 0.098, Loss s: 0.090, Loss w_fp: 0.009, Mask ratio: 0.778
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 92.48
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 86.10
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.36
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 85.45
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 62.91
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 72.20
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 90.33
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 82.42
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 88.46
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 23.46
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 82.51
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 45.88
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 84.24
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 81.39
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 80.67
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 82.12
+[2023-06-13 00:24:48,249][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 48.31
+[2023-06-13 00:24:48,250][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 80.49
+[2023-06-13 00:24:48,250][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 41.29
+[2023-06-13 00:24:48,250][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 83.44
+[2023-06-13 00:24:48,250][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 61.63
+[2023-06-13 00:24:48,250][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 71.34
+
+[2023-06-13 00:24:48,749][    INFO] ===========> Epoch: 17, LR: 0.00081, Previous best: 71.50
+[2023-06-13 00:24:49,505][    INFO] Iters: 0, Total loss: 0.092, Loss x: 0.142, Loss s: 0.074, Loss w_fp: 0.007, Mask ratio: 0.823
+[2023-06-13 00:26:41,315][    INFO] Iters: 144, Total loss: 0.074, Loss x: 0.100, Loss s: 0.089, Loss w_fp: 0.007, Mask ratio: 0.775
+[2023-06-13 00:28:33,563][    INFO] Iters: 288, Total loss: 0.074, Loss x: 0.100, Loss s: 0.087, Loss w_fp: 0.008, Mask ratio: 0.771
+[2023-06-13 00:30:26,234][    INFO] Iters: 432, Total loss: 0.073, Loss x: 0.099, Loss s: 0.086, Loss w_fp: 0.008, Mask ratio: 0.775
+[2023-06-13 00:32:18,573][    INFO] Iters: 576, Total loss: 0.074, Loss x: 0.099, Loss s: 0.089, Loss w_fp: 0.008, Mask ratio: 0.778
+[2023-06-13 00:34:11,222][    INFO] Iters: 720, Total loss: 0.074, Loss x: 0.097, Loss s: 0.093, Loss w_fp: 0.008, Mask ratio: 0.779
+[2023-06-13 00:36:03,738][    INFO] Iters: 864, Total loss: 0.075, Loss x: 0.098, Loss s: 0.094, Loss w_fp: 0.008, Mask ratio: 0.779
+[2023-06-13 00:37:56,340][    INFO] Iters: 1008, Total loss: 0.074, Loss x: 0.098, Loss s: 0.094, Loss w_fp: 0.008, Mask ratio: 0.778
+[2023-06-13 00:39:49,878][    INFO] Iters: 1152, Total loss: 0.074, Loss x: 0.097, Loss s: 0.093, Loss w_fp: 0.008, Mask ratio: 0.776
+[2023-06-13 00:39:53,075][    INFO] ===========> Epoch: 18, LR: 0.00080, Previous best: 71.50
+[2023-06-13 00:39:53,863][    INFO] Iters: 0, Total loss: 0.058, Loss x: 0.066, Loss s: 0.092, Loss w_fp: 0.008, Mask ratio: 0.799
+[2023-06-13 00:41:45,604][    INFO] Iters: 144, Total loss: 0.070, Loss x: 0.094, Loss s: 0.082, Loss w_fp: 0.008, Mask ratio: 0.780
+[2023-06-13 00:43:37,797][    INFO] Iters: 288, Total loss: 0.070, Loss x: 0.096, Loss s: 0.081, Loss w_fp: 0.008, Mask ratio: 0.779
+[2023-06-13 00:45:30,096][    INFO] Iters: 432, Total loss: 0.071, Loss x: 0.095, Loss s: 0.085, Loss w_fp: 0.008, Mask ratio: 0.783
+[2023-06-13 00:47:22,566][    INFO] Iters: 576, Total loss: 0.071, Loss x: 0.095, Loss s: 0.088, Loss w_fp: 0.009, Mask ratio: 0.786
+[2023-06-13 00:49:15,182][    INFO] Iters: 720, Total loss: 0.071, Loss x: 0.094, Loss s: 0.089, Loss w_fp: 0.009, Mask ratio: 0.786
+[2023-06-13 00:51:07,926][    INFO] Iters: 864, Total loss: 0.071, Loss x: 0.094, Loss s: 0.089, Loss w_fp: 0.009, Mask ratio: 0.786
+[2023-06-13 00:52:59,867][    INFO] Iters: 1008, Total loss: 0.071, Loss x: 0.093, Loss s: 0.089, Loss w_fp: 0.009, Mask ratio: 0.788
+[2023-06-13 00:54:52,028][    INFO] Iters: 1152, Total loss: 0.071, Loss x: 0.093, Loss s: 0.090, Loss w_fp: 0.009, Mask ratio: 0.787
+[2023-06-13 00:55:19,567][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 92.63
+[2023-06-13 00:55:19,567][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 86.19
+[2023-06-13 00:55:19,567][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.03
+[2023-06-13 00:55:19,567][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 86.16
+[2023-06-13 00:55:19,567][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 64.81
+[2023-06-13 00:55:19,567][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 75.20
+[2023-06-13 00:55:19,567][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 91.59
+[2023-06-13 00:55:19,567][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 83.06
+[2023-06-13 00:55:19,568][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 90.28
+[2023-06-13 00:55:19,568][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 27.39
+[2023-06-13 00:55:19,568][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 82.09
+[2023-06-13 00:55:19,568][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 44.20
+[2023-06-13 00:55:19,568][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 85.99
+[2023-06-13 00:55:19,568][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 79.27
+[2023-06-13 00:55:19,568][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 81.54
+[2023-06-13 00:55:19,568][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 81.92
+[2023-06-13 00:55:19,568][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 52.39
+[2023-06-13 00:55:19,568][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 81.88
+[2023-06-13 00:55:19,568][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 35.99
+[2023-06-13 00:55:19,568][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 83.31
+[2023-06-13 00:55:19,568][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 64.02
+[2023-06-13 00:55:19,568][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 72.00
+
+[2023-06-13 00:55:20,581][    INFO] ===========> Epoch: 19, LR: 0.00078, Previous best: 72.00
+[2023-06-13 00:55:21,366][    INFO] Iters: 0, Total loss: 0.054, Loss x: 0.074, Loss s: 0.060, Loss w_fp: 0.008, Mask ratio: 0.900
+[2023-06-13 00:57:13,212][    INFO] Iters: 144, Total loss: 0.072, Loss x: 0.099, Loss s: 0.080, Loss w_fp: 0.007, Mask ratio: 0.783
+[2023-06-13 00:59:04,744][    INFO] Iters: 288, Total loss: 0.071, Loss x: 0.096, Loss s: 0.086, Loss w_fp: 0.008, Mask ratio: 0.785
+[2023-06-13 01:00:56,848][    INFO] Iters: 432, Total loss: 0.070, Loss x: 0.093, Loss s: 0.085, Loss w_fp: 0.008, Mask ratio: 0.792
+[2023-06-13 01:02:49,477][    INFO] Iters: 576, Total loss: 0.070, Loss x: 0.092, Loss s: 0.085, Loss w_fp: 0.009, Mask ratio: 0.793
+[2023-06-13 01:04:41,484][    INFO] Iters: 720, Total loss: 0.070, Loss x: 0.091, Loss s: 0.088, Loss w_fp: 0.009, Mask ratio: 0.794
+[2023-06-13 01:06:33,386][    INFO] Iters: 864, Total loss: 0.070, Loss x: 0.091, Loss s: 0.089, Loss w_fp: 0.009, Mask ratio: 0.794
+[2023-06-13 01:08:25,464][    INFO] Iters: 1008, Total loss: 0.070, Loss x: 0.090, Loss s: 0.090, Loss w_fp: 0.009, Mask ratio: 0.792
+[2023-06-13 01:10:18,080][    INFO] Iters: 1152, Total loss: 0.069, Loss x: 0.090, Loss s: 0.089, Loss w_fp: 0.009, Mask ratio: 0.790
+[2023-06-13 01:10:21,186][    INFO] ===========> Epoch: 20, LR: 0.00077, Previous best: 72.00
+[2023-06-13 01:10:21,965][    INFO] Iters: 0, Total loss: 0.062, Loss x: 0.099, Loss s: 0.046, Loss w_fp: 0.006, Mask ratio: 0.875
+[2023-06-13 01:12:13,001][    INFO] Iters: 144, Total loss: 0.065, Loss x: 0.085, Loss s: 0.081, Loss w_fp: 0.009, Mask ratio: 0.795
+[2023-06-13 01:14:05,503][    INFO] Iters: 288, Total loss: 0.066, Loss x: 0.088, Loss s: 0.081, Loss w_fp: 0.009, Mask ratio: 0.792
+[2023-06-13 01:15:57,302][    INFO] Iters: 432, Total loss: 0.066, Loss x: 0.089, Loss s: 0.079, Loss w_fp: 0.008, Mask ratio: 0.795
+[2023-06-13 01:17:49,901][    INFO] Iters: 576, Total loss: 0.067, Loss x: 0.088, Loss s: 0.082, Loss w_fp: 0.009, Mask ratio: 0.797
+[2023-06-13 01:19:42,327][    INFO] Iters: 720, Total loss: 0.067, Loss x: 0.087, Loss s: 0.084, Loss w_fp: 0.009, Mask ratio: 0.798
+[2023-06-13 01:21:34,843][    INFO] Iters: 864, Total loss: 0.068, Loss x: 0.088, Loss s: 0.085, Loss w_fp: 0.009, Mask ratio: 0.797
+[2023-06-13 01:23:26,659][    INFO] Iters: 1008, Total loss: 0.068, Loss x: 0.088, Loss s: 0.086, Loss w_fp: 0.009, Mask ratio: 0.797
+[2023-06-13 01:25:18,685][    INFO] Iters: 1152, Total loss: 0.067, Loss x: 0.088, Loss s: 0.085, Loss w_fp: 0.009, Mask ratio: 0.795
+[2023-06-13 01:25:45,997][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 92.71
+[2023-06-13 01:25:45,997][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 86.64
+[2023-06-13 01:25:45,997][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 43.01
+[2023-06-13 01:25:45,997][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 85.49
+[2023-06-13 01:25:45,997][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 63.96
+[2023-06-13 01:25:45,997][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 75.94
+[2023-06-13 01:25:45,997][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 91.40
+[2023-06-13 01:25:45,998][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 83.70
+[2023-06-13 01:25:45,998][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 87.50
+[2023-06-13 01:25:45,998][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 26.73
+[2023-06-13 01:25:45,998][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 78.76
+[2023-06-13 01:25:45,998][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 45.90
+[2023-06-13 01:25:45,998][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 82.72
+[2023-06-13 01:25:45,998][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 78.05
+[2023-06-13 01:25:45,998][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 83.08
+[2023-06-13 01:25:45,998][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 82.31
+[2023-06-13 01:25:45,998][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 47.65
+[2023-06-13 01:25:45,998][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 83.19
+[2023-06-13 01:25:45,998][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 38.89
+[2023-06-13 01:25:45,998][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 84.51
+[2023-06-13 01:25:45,998][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 62.70
+[2023-06-13 01:25:45,998][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 71.66
+
+[2023-06-13 01:25:46,500][    INFO] ===========> Epoch: 21, LR: 0.00076, Previous best: 72.00
+[2023-06-13 01:25:47,294][    INFO] Iters: 0, Total loss: 0.056, Loss x: 0.089, Loss s: 0.042, Loss w_fp: 0.005, Mask ratio: 0.856
+[2023-06-13 01:27:39,082][    INFO] Iters: 144, Total loss: 0.064, Loss x: 0.084, Loss s: 0.081, Loss w_fp: 0.007, Mask ratio: 0.790
+[2023-06-13 01:29:31,158][    INFO] Iters: 288, Total loss: 0.069, Loss x: 0.090, Loss s: 0.086, Loss w_fp: 0.009, Mask ratio: 0.788
+[2023-06-13 01:31:23,219][    INFO] Iters: 432, Total loss: 0.069, Loss x: 0.090, Loss s: 0.085, Loss w_fp: 0.009, Mask ratio: 0.791
+[2023-06-13 01:33:15,756][    INFO] Iters: 576, Total loss: 0.069, Loss x: 0.090, Loss s: 0.087, Loss w_fp: 0.009, Mask ratio: 0.793
+[2023-06-13 01:35:08,093][    INFO] Iters: 720, Total loss: 0.068, Loss x: 0.089, Loss s: 0.087, Loss w_fp: 0.009, Mask ratio: 0.793
+[2023-06-13 01:36:59,980][    INFO] Iters: 864, Total loss: 0.068, Loss x: 0.089, Loss s: 0.087, Loss w_fp: 0.009, Mask ratio: 0.794
+[2023-06-13 01:38:52,139][    INFO] Iters: 1008, Total loss: 0.069, Loss x: 0.089, Loss s: 0.088, Loss w_fp: 0.009, Mask ratio: 0.794
+[2023-06-13 01:40:44,434][    INFO] Iters: 1152, Total loss: 0.069, Loss x: 0.089, Loss s: 0.088, Loss w_fp: 0.009, Mask ratio: 0.793
+[2023-06-13 01:40:47,543][    INFO] ===========> Epoch: 22, LR: 0.00075, Previous best: 72.00
+[2023-06-13 01:40:48,316][    INFO] Iters: 0, Total loss: 0.049, Loss x: 0.076, Loss s: 0.039, Loss w_fp: 0.004, Mask ratio: 0.752
+[2023-06-13 01:42:39,857][    INFO] Iters: 144, Total loss: 0.065, Loss x: 0.086, Loss s: 0.081, Loss w_fp: 0.008, Mask ratio: 0.795
+[2023-06-13 01:44:32,286][    INFO] Iters: 288, Total loss: 0.065, Loss x: 0.084, Loss s: 0.083, Loss w_fp: 0.008, Mask ratio: 0.797
+[2023-06-13 01:46:24,181][    INFO] Iters: 432, Total loss: 0.065, Loss x: 0.085, Loss s: 0.083, Loss w_fp: 0.008, Mask ratio: 0.799
+[2023-06-13 01:48:17,488][    INFO] Iters: 576, Total loss: 0.065, Loss x: 0.085, Loss s: 0.083, Loss w_fp: 0.008, Mask ratio: 0.799
+[2023-06-13 01:50:10,406][    INFO] Iters: 720, Total loss: 0.066, Loss x: 0.084, Loss s: 0.086, Loss w_fp: 0.008, Mask ratio: 0.800
+[2023-06-13 01:52:03,099][    INFO] Iters: 864, Total loss: 0.066, Loss x: 0.086, Loss s: 0.086, Loss w_fp: 0.008, Mask ratio: 0.800
+[2023-06-13 01:53:55,877][    INFO] Iters: 1008, Total loss: 0.066, Loss x: 0.085, Loss s: 0.086, Loss w_fp: 0.009, Mask ratio: 0.801
+[2023-06-13 01:55:48,642][    INFO] Iters: 1152, Total loss: 0.066, Loss x: 0.085, Loss s: 0.087, Loss w_fp: 0.008, Mask ratio: 0.799
+[2023-06-13 01:56:16,235][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 92.92
+[2023-06-13 01:56:16,235][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 86.97
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.40
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 86.64
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 63.61
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 74.38
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 92.64
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 83.12
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 88.39
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 27.26
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 86.95
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 53.16
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 84.54
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 83.06
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 80.97
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 81.85
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 49.55
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 79.22
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 35.63
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 84.42
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 65.26
+[2023-06-13 01:56:16,236][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 72.52
+
+[2023-06-13 01:56:17,272][    INFO] ===========> Epoch: 23, LR: 0.00074, Previous best: 72.52
+[2023-06-13 01:56:18,061][    INFO] Iters: 0, Total loss: 0.083, Loss x: 0.071, Loss s: 0.148, Loss w_fp: 0.042, Mask ratio: 0.784
+[2023-06-13 01:58:09,733][    INFO] Iters: 144, Total loss: 0.065, Loss x: 0.081, Loss s: 0.091, Loss w_fp: 0.008, Mask ratio: 0.797
+[2023-06-13 02:00:01,978][    INFO] Iters: 288, Total loss: 0.064, Loss x: 0.080, Loss s: 0.086, Loss w_fp: 0.008, Mask ratio: 0.800
+[2023-06-13 02:01:54,252][    INFO] Iters: 432, Total loss: 0.064, Loss x: 0.081, Loss s: 0.085, Loss w_fp: 0.008, Mask ratio: 0.802
+[2023-06-13 02:03:47,175][    INFO] Iters: 576, Total loss: 0.065, Loss x: 0.082, Loss s: 0.086, Loss w_fp: 0.008, Mask ratio: 0.803
+[2023-06-13 02:05:39,230][    INFO] Iters: 720, Total loss: 0.065, Loss x: 0.082, Loss s: 0.086, Loss w_fp: 0.009, Mask ratio: 0.804
+[2023-06-13 02:07:31,456][    INFO] Iters: 864, Total loss: 0.065, Loss x: 0.082, Loss s: 0.085, Loss w_fp: 0.009, Mask ratio: 0.804
+[2023-06-13 02:09:23,899][    INFO] Iters: 1008, Total loss: 0.065, Loss x: 0.082, Loss s: 0.086, Loss w_fp: 0.009, Mask ratio: 0.805
+[2023-06-13 02:11:16,269][    INFO] Iters: 1152, Total loss: 0.065, Loss x: 0.082, Loss s: 0.086, Loss w_fp: 0.009, Mask ratio: 0.803
+[2023-06-13 02:11:19,347][    INFO] ===========> Epoch: 24, LR: 0.00073, Previous best: 72.52
+[2023-06-13 02:11:20,115][    INFO] Iters: 0, Total loss: 0.104, Loss x: 0.177, Loss s: 0.058, Loss w_fp: 0.004, Mask ratio: 0.846
+[2023-06-13 02:13:11,827][    INFO] Iters: 144, Total loss: 0.067, Loss x: 0.085, Loss s: 0.090, Loss w_fp: 0.008, Mask ratio: 0.803
+[2023-06-13 02:15:04,180][    INFO] Iters: 288, Total loss: 0.066, Loss x: 0.085, Loss s: 0.085, Loss w_fp: 0.008, Mask ratio: 0.799
+[2023-06-13 02:16:55,937][    INFO] Iters: 432, Total loss: 0.065, Loss x: 0.084, Loss s: 0.083, Loss w_fp: 0.008, Mask ratio: 0.804
+[2023-06-13 02:18:48,714][    INFO] Iters: 576, Total loss: 0.065, Loss x: 0.084, Loss s: 0.085, Loss w_fp: 0.008, Mask ratio: 0.804
+[2023-06-13 02:20:41,296][    INFO] Iters: 720, Total loss: 0.066, Loss x: 0.084, Loss s: 0.085, Loss w_fp: 0.008, Mask ratio: 0.802
+[2023-06-13 02:22:33,761][    INFO] Iters: 864, Total loss: 0.066, Loss x: 0.084, Loss s: 0.087, Loss w_fp: 0.008, Mask ratio: 0.802
+[2023-06-13 02:24:26,012][    INFO] Iters: 1008, Total loss: 0.066, Loss x: 0.084, Loss s: 0.088, Loss w_fp: 0.008, Mask ratio: 0.803
+[2023-06-13 02:26:18,553][    INFO] Iters: 1152, Total loss: 0.066, Loss x: 0.083, Loss s: 0.088, Loss w_fp: 0.009, Mask ratio: 0.801
+[2023-06-13 02:26:46,087][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 92.91
+[2023-06-13 02:26:46,087][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 87.24
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 41.83
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 84.94
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 65.36
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 74.35
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 91.52
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 85.41
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 88.90
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 26.06
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 82.80
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 44.28
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 83.95
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 80.92
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 82.98
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 82.71
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 51.25
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 82.40
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 44.07
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 85.25
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 61.60
+[2023-06-13 02:26:46,088][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 72.42
+
+[2023-06-13 02:26:46,575][    INFO] ===========> Epoch: 25, LR: 0.00071, Previous best: 72.52
+[2023-06-13 02:26:47,333][    INFO] Iters: 0, Total loss: 0.042, Loss x: 0.060, Loss s: 0.042, Loss w_fp: 0.007, Mask ratio: 0.802
+[2023-06-13 02:28:39,310][    INFO] Iters: 144, Total loss: 0.065, Loss x: 0.087, Loss s: 0.077, Loss w_fp: 0.008, Mask ratio: 0.800
+[2023-06-13 02:30:31,077][    INFO] Iters: 288, Total loss: 0.064, Loss x: 0.084, Loss s: 0.081, Loss w_fp: 0.007, Mask ratio: 0.802
+[2023-06-13 02:32:23,552][    INFO] Iters: 432, Total loss: 0.063, Loss x: 0.082, Loss s: 0.081, Loss w_fp: 0.007, Mask ratio: 0.807
+[2023-06-13 02:34:16,172][    INFO] Iters: 576, Total loss: 0.063, Loss x: 0.081, Loss s: 0.081, Loss w_fp: 0.008, Mask ratio: 0.809
+[2023-06-13 02:36:08,819][    INFO] Iters: 720, Total loss: 0.064, Loss x: 0.082, Loss s: 0.084, Loss w_fp: 0.008, Mask ratio: 0.809
+[2023-06-13 02:38:01,118][    INFO] Iters: 864, Total loss: 0.064, Loss x: 0.083, Loss s: 0.083, Loss w_fp: 0.008, Mask ratio: 0.809
+[2023-06-13 02:39:53,269][    INFO] Iters: 1008, Total loss: 0.065, Loss x: 0.083, Loss s: 0.085, Loss w_fp: 0.008, Mask ratio: 0.810
+[2023-06-13 02:41:46,017][    INFO] Iters: 1152, Total loss: 0.065, Loss x: 0.082, Loss s: 0.085, Loss w_fp: 0.008, Mask ratio: 0.808
+[2023-06-13 02:41:49,138][    INFO] ===========> Epoch: 26, LR: 0.00070, Previous best: 72.52
+[2023-06-13 02:41:49,916][    INFO] Iters: 0, Total loss: 0.055, Loss x: 0.046, Loss s: 0.119, Loss w_fp: 0.009, Mask ratio: 0.785
+[2023-06-13 02:43:41,136][    INFO] Iters: 144, Total loss: 0.059, Loss x: 0.076, Loss s: 0.079, Loss w_fp: 0.007, Mask ratio: 0.803
+[2023-06-13 02:45:33,068][    INFO] Iters: 288, Total loss: 0.060, Loss x: 0.077, Loss s: 0.078, Loss w_fp: 0.008, Mask ratio: 0.804
+[2023-06-13 02:47:25,398][    INFO] Iters: 432, Total loss: 0.062, Loss x: 0.082, Loss s: 0.077, Loss w_fp: 0.007, Mask ratio: 0.805
+[2023-06-13 02:49:18,415][    INFO] Iters: 576, Total loss: 0.063, Loss x: 0.081, Loss s: 0.080, Loss w_fp: 0.008, Mask ratio: 0.808
+[2023-06-13 02:51:10,899][    INFO] Iters: 720, Total loss: 0.063, Loss x: 0.080, Loss s: 0.082, Loss w_fp: 0.008, Mask ratio: 0.811
+[2023-06-13 02:53:02,631][    INFO] Iters: 864, Total loss: 0.062, Loss x: 0.080, Loss s: 0.081, Loss w_fp: 0.008, Mask ratio: 0.811
+[2023-06-13 02:54:54,387][    INFO] Iters: 1008, Total loss: 0.063, Loss x: 0.081, Loss s: 0.083, Loss w_fp: 0.008, Mask ratio: 0.809
+[2023-06-13 02:56:46,959][    INFO] Iters: 1152, Total loss: 0.064, Loss x: 0.082, Loss s: 0.083, Loss w_fp: 0.008, Mask ratio: 0.806
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 92.92
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 87.10
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 43.43
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 86.99
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 62.09
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 72.32
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 91.36
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 86.49
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 91.31
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 24.92
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 77.24
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 52.61
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 85.80
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 75.26
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 81.95
+[2023-06-13 02:57:14,692][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 82.58
+[2023-06-13 02:57:14,693][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 51.90
+[2023-06-13 02:57:14,693][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 81.56
+[2023-06-13 02:57:14,693][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 37.03
+[2023-06-13 02:57:14,693][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 86.62
+[2023-06-13 02:57:14,693][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 64.26
+[2023-06-13 02:57:14,693][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 72.18
+
+[2023-06-13 02:57:15,189][    INFO] ===========> Epoch: 27, LR: 0.00069, Previous best: 72.52
+[2023-06-13 02:57:15,936][    INFO] Iters: 0, Total loss: 0.063, Loss x: 0.071, Loss s: 0.102, Loss w_fp: 0.006, Mask ratio: 0.856
+[2023-06-13 02:59:07,152][    INFO] Iters: 144, Total loss: 0.063, Loss x: 0.081, Loss s: 0.080, Loss w_fp: 0.008, Mask ratio: 0.799
+[2023-06-13 03:00:59,564][    INFO] Iters: 288, Total loss: 0.062, Loss x: 0.081, Loss s: 0.080, Loss w_fp: 0.008, Mask ratio: 0.803
+[2023-06-13 03:02:51,504][    INFO] Iters: 432, Total loss: 0.062, Loss x: 0.081, Loss s: 0.079, Loss w_fp: 0.008, Mask ratio: 0.807
+[2023-06-13 03:04:44,395][    INFO] Iters: 576, Total loss: 0.063, Loss x: 0.081, Loss s: 0.082, Loss w_fp: 0.008, Mask ratio: 0.808
+[2023-06-13 03:06:36,934][    INFO] Iters: 720, Total loss: 0.064, Loss x: 0.081, Loss s: 0.084, Loss w_fp: 0.008, Mask ratio: 0.809
+[2023-06-13 03:08:33,975][    INFO] Iters: 864, Total loss: 0.063, Loss x: 0.081, Loss s: 0.084, Loss w_fp: 0.008, Mask ratio: 0.809
+[2023-06-13 03:10:36,976][    INFO] Iters: 1008, Total loss: 0.064, Loss x: 0.081, Loss s: 0.086, Loss w_fp: 0.008, Mask ratio: 0.809
+[2023-06-13 03:12:31,311][    INFO] Iters: 1152, Total loss: 0.063, Loss x: 0.080, Loss s: 0.085, Loss w_fp: 0.008, Mask ratio: 0.808
+[2023-06-13 03:12:34,441][    INFO] ===========> Epoch: 28, LR: 0.00068, Previous best: 72.52
+[2023-06-13 03:12:35,236][    INFO] Iters: 0, Total loss: 0.081, Loss x: 0.081, Loss s: 0.157, Loss w_fp: 0.006, Mask ratio: 0.771
+[2023-06-13 03:14:26,723][    INFO] Iters: 144, Total loss: 0.060, Loss x: 0.077, Loss s: 0.077, Loss w_fp: 0.008, Mask ratio: 0.819
+[2023-06-13 03:16:18,751][    INFO] Iters: 288, Total loss: 0.059, Loss x: 0.077, Loss s: 0.076, Loss w_fp: 0.008, Mask ratio: 0.820
+[2023-06-13 03:18:17,471][    INFO] Iters: 432, Total loss: 0.060, Loss x: 0.077, Loss s: 0.078, Loss w_fp: 0.008, Mask ratio: 0.821
+[2023-06-13 03:20:14,712][    INFO] Iters: 576, Total loss: 0.060, Loss x: 0.076, Loss s: 0.080, Loss w_fp: 0.009, Mask ratio: 0.820
+[2023-06-13 03:22:07,394][    INFO] Iters: 720, Total loss: 0.060, Loss x: 0.076, Loss s: 0.082, Loss w_fp: 0.009, Mask ratio: 0.818
+[2023-06-13 03:23:59,903][    INFO] Iters: 864, Total loss: 0.061, Loss x: 0.076, Loss s: 0.082, Loss w_fp: 0.009, Mask ratio: 0.818
+[2023-06-13 03:25:51,522][    INFO] Iters: 1008, Total loss: 0.061, Loss x: 0.076, Loss s: 0.083, Loss w_fp: 0.009, Mask ratio: 0.817
+[2023-06-13 03:27:43,944][    INFO] Iters: 1152, Total loss: 0.061, Loss x: 0.075, Loss s: 0.084, Loss w_fp: 0.009, Mask ratio: 0.816
+[2023-06-13 03:28:11,501][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.09
+[2023-06-13 03:28:11,501][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 86.19
+[2023-06-13 03:28:11,501][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.16
+[2023-06-13 03:28:11,501][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 86.53
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 62.22
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 75.59
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 92.43
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 86.11
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 88.72
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 28.53
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 83.50
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 50.97
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 85.52
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 81.86
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 83.07
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 82.55
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 53.81
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 80.62
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 43.20
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 86.07
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 64.75
+[2023-06-13 03:28:11,502][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 73.21
+
+[2023-06-13 03:28:12,520][    INFO] ===========> Epoch: 29, LR: 0.00067, Previous best: 73.21
+[2023-06-13 03:28:13,299][    INFO] Iters: 0, Total loss: 0.056, Loss x: 0.070, Loss s: 0.075, Loss w_fp: 0.010, Mask ratio: 0.810
+[2023-06-13 03:30:05,512][    INFO] Iters: 144, Total loss: 0.059, Loss x: 0.076, Loss s: 0.078, Loss w_fp: 0.006, Mask ratio: 0.809
+[2023-06-13 03:31:57,255][    INFO] Iters: 288, Total loss: 0.059, Loss x: 0.077, Loss s: 0.076, Loss w_fp: 0.007, Mask ratio: 0.811
+[2023-06-13 03:33:55,504][    INFO] Iters: 432, Total loss: 0.059, Loss x: 0.076, Loss s: 0.078, Loss w_fp: 0.008, Mask ratio: 0.815
+[2023-06-13 03:35:57,607][    INFO] Iters: 576, Total loss: 0.060, Loss x: 0.076, Loss s: 0.079, Loss w_fp: 0.008, Mask ratio: 0.817
+[2023-06-13 03:37:49,970][    INFO] Iters: 720, Total loss: 0.061, Loss x: 0.077, Loss s: 0.081, Loss w_fp: 0.008, Mask ratio: 0.818
+[2023-06-13 03:39:42,243][    INFO] Iters: 864, Total loss: 0.061, Loss x: 0.077, Loss s: 0.082, Loss w_fp: 0.008, Mask ratio: 0.818
+[2023-06-13 03:41:34,564][    INFO] Iters: 1008, Total loss: 0.061, Loss x: 0.077, Loss s: 0.082, Loss w_fp: 0.008, Mask ratio: 0.818
+[2023-06-13 03:43:27,299][    INFO] Iters: 1152, Total loss: 0.061, Loss x: 0.077, Loss s: 0.082, Loss w_fp: 0.008, Mask ratio: 0.816
+[2023-06-13 03:43:30,430][    INFO] ===========> Epoch: 30, LR: 0.00066, Previous best: 73.21
+[2023-06-13 03:43:31,200][    INFO] Iters: 0, Total loss: 0.076, Loss x: 0.053, Loss s: 0.193, Loss w_fp: 0.006, Mask ratio: 0.853
+[2023-06-13 03:45:23,425][    INFO] Iters: 144, Total loss: 0.059, Loss x: 0.073, Loss s: 0.082, Loss w_fp: 0.009, Mask ratio: 0.822
+[2023-06-13 03:47:15,282][    INFO] Iters: 288, Total loss: 0.059, Loss x: 0.075, Loss s: 0.077, Loss w_fp: 0.009, Mask ratio: 0.818
+[2023-06-13 03:49:07,318][    INFO] Iters: 432, Total loss: 0.059, Loss x: 0.076, Loss s: 0.076, Loss w_fp: 0.008, Mask ratio: 0.820
+[2023-06-13 03:51:00,307][    INFO] Iters: 576, Total loss: 0.059, Loss x: 0.075, Loss s: 0.078, Loss w_fp: 0.009, Mask ratio: 0.819
+[2023-06-13 03:52:53,038][    INFO] Iters: 720, Total loss: 0.060, Loss x: 0.076, Loss s: 0.080, Loss w_fp: 0.009, Mask ratio: 0.819
+[2023-06-13 03:54:45,235][    INFO] Iters: 864, Total loss: 0.060, Loss x: 0.076, Loss s: 0.082, Loss w_fp: 0.009, Mask ratio: 0.819
+[2023-06-13 03:56:37,963][    INFO] Iters: 1008, Total loss: 0.060, Loss x: 0.075, Loss s: 0.083, Loss w_fp: 0.009, Mask ratio: 0.820
+[2023-06-13 03:58:30,548][    INFO] Iters: 1152, Total loss: 0.061, Loss x: 0.076, Loss s: 0.083, Loss w_fp: 0.009, Mask ratio: 0.818
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.12
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 87.64
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.72
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 86.39
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 63.80
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 75.62
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 91.68
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 85.46
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 90.89
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 30.31
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 80.19
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 50.52
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 82.27
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 81.25
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 82.95
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 83.35
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 48.21
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 84.20
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 40.56
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 85.46
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 62.88
+[2023-06-13 03:58:58,106][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 72.83
+
+[2023-06-13 03:58:58,580][    INFO] ===========> Epoch: 31, LR: 0.00064, Previous best: 73.21
+[2023-06-13 03:58:59,325][    INFO] Iters: 0, Total loss: 0.066, Loss x: 0.058, Loss s: 0.142, Loss w_fp: 0.005, Mask ratio: 0.851
+[2023-06-13 04:00:50,714][    INFO] Iters: 144, Total loss: 0.059, Loss x: 0.077, Loss s: 0.075, Loss w_fp: 0.007, Mask ratio: 0.814
+[2023-06-13 04:02:42,694][    INFO] Iters: 288, Total loss: 0.058, Loss x: 0.075, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.819
+[2023-06-13 04:04:34,867][    INFO] Iters: 432, Total loss: 0.059, Loss x: 0.075, Loss s: 0.077, Loss w_fp: 0.008, Mask ratio: 0.819
+[2023-06-13 04:06:27,824][    INFO] Iters: 576, Total loss: 0.059, Loss x: 0.074, Loss s: 0.080, Loss w_fp: 0.008, Mask ratio: 0.819
+[2023-06-13 04:08:20,259][    INFO] Iters: 720, Total loss: 0.059, Loss x: 0.074, Loss s: 0.080, Loss w_fp: 0.008, Mask ratio: 0.820
+[2023-06-13 04:10:12,588][    INFO] Iters: 864, Total loss: 0.059, Loss x: 0.074, Loss s: 0.080, Loss w_fp: 0.008, Mask ratio: 0.822
+[2023-06-13 04:12:04,187][    INFO] Iters: 1008, Total loss: 0.059, Loss x: 0.074, Loss s: 0.080, Loss w_fp: 0.008, Mask ratio: 0.821
+[2023-06-13 04:13:56,483][    INFO] Iters: 1152, Total loss: 0.059, Loss x: 0.074, Loss s: 0.080, Loss w_fp: 0.008, Mask ratio: 0.821
+[2023-06-13 04:13:59,583][    INFO] ===========> Epoch: 32, LR: 0.00063, Previous best: 73.21
+[2023-06-13 04:14:00,377][    INFO] Iters: 0, Total loss: 0.052, Loss x: 0.071, Loss s: 0.056, Loss w_fp: 0.010, Mask ratio: 0.854
+[2023-06-13 04:15:52,380][    INFO] Iters: 144, Total loss: 0.058, Loss x: 0.076, Loss s: 0.073, Loss w_fp: 0.007, Mask ratio: 0.815
+[2023-06-13 04:17:44,530][    INFO] Iters: 288, Total loss: 0.057, Loss x: 0.074, Loss s: 0.073, Loss w_fp: 0.008, Mask ratio: 0.818
+[2023-06-13 04:19:36,041][    INFO] Iters: 432, Total loss: 0.057, Loss x: 0.074, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.820
+[2023-06-13 04:21:29,078][    INFO] Iters: 576, Total loss: 0.058, Loss x: 0.073, Loss s: 0.076, Loss w_fp: 0.008, Mask ratio: 0.824
+[2023-06-13 04:23:21,955][    INFO] Iters: 720, Total loss: 0.058, Loss x: 0.073, Loss s: 0.077, Loss w_fp: 0.009, Mask ratio: 0.824
+[2023-06-13 04:25:14,645][    INFO] Iters: 864, Total loss: 0.058, Loss x: 0.073, Loss s: 0.078, Loss w_fp: 0.009, Mask ratio: 0.824
+[2023-06-13 04:27:06,775][    INFO] Iters: 1008, Total loss: 0.059, Loss x: 0.074, Loss s: 0.079, Loss w_fp: 0.008, Mask ratio: 0.822
+[2023-06-13 04:28:59,233][    INFO] Iters: 1152, Total loss: 0.059, Loss x: 0.075, Loss s: 0.079, Loss w_fp: 0.008, Mask ratio: 0.819
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.07
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 86.39
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.77
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 84.27
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 61.74
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 73.96
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 92.62
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 85.89
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 90.47
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 28.18
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 82.26
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 46.42
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 84.64
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 83.20
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 83.07
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 83.23
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 51.79
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 83.05
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 43.78
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 85.89
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 65.85
+[2023-06-13 04:29:26,941][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 72.98
+
+[2023-06-13 04:29:27,464][    INFO] ===========> Epoch: 33, LR: 0.00062, Previous best: 73.21
+[2023-06-13 04:29:28,221][    INFO] Iters: 0, Total loss: 0.059, Loss x: 0.078, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.852
+[2023-06-13 04:31:19,781][    INFO] Iters: 144, Total loss: 0.057, Loss x: 0.075, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.818
+[2023-06-13 04:33:11,744][    INFO] Iters: 288, Total loss: 0.056, Loss x: 0.073, Loss s: 0.072, Loss w_fp: 0.007, Mask ratio: 0.824
+[2023-06-13 04:35:04,289][    INFO] Iters: 432, Total loss: 0.056, Loss x: 0.072, Loss s: 0.074, Loss w_fp: 0.008, Mask ratio: 0.826
+[2023-06-13 04:36:57,171][    INFO] Iters: 576, Total loss: 0.056, Loss x: 0.071, Loss s: 0.076, Loss w_fp: 0.008, Mask ratio: 0.825
+[2023-06-13 04:38:49,791][    INFO] Iters: 720, Total loss: 0.057, Loss x: 0.071, Loss s: 0.077, Loss w_fp: 0.008, Mask ratio: 0.827
+[2023-06-13 04:40:42,544][    INFO] Iters: 864, Total loss: 0.057, Loss x: 0.071, Loss s: 0.078, Loss w_fp: 0.008, Mask ratio: 0.827
+[2023-06-13 04:42:35,357][    INFO] Iters: 1008, Total loss: 0.057, Loss x: 0.071, Loss s: 0.078, Loss w_fp: 0.008, Mask ratio: 0.827
+[2023-06-13 04:44:27,832][    INFO] Iters: 1152, Total loss: 0.057, Loss x: 0.071, Loss s: 0.078, Loss w_fp: 0.008, Mask ratio: 0.825
+[2023-06-13 04:44:30,916][    INFO] ===========> Epoch: 34, LR: 0.00061, Previous best: 73.21
+[2023-06-13 04:44:31,689][    INFO] Iters: 0, Total loss: 0.056, Loss x: 0.060, Loss s: 0.098, Loss w_fp: 0.005, Mask ratio: 0.829
+[2023-06-13 04:46:23,711][    INFO] Iters: 144, Total loss: 0.055, Loss x: 0.069, Loss s: 0.077, Loss w_fp: 0.007, Mask ratio: 0.824
+[2023-06-13 04:48:16,135][    INFO] Iters: 288, Total loss: 0.056, Loss x: 0.069, Loss s: 0.078, Loss w_fp: 0.007, Mask ratio: 0.825
+[2023-06-13 04:50:07,735][    INFO] Iters: 432, Total loss: 0.056, Loss x: 0.069, Loss s: 0.077, Loss w_fp: 0.008, Mask ratio: 0.828
+[2023-06-13 04:52:01,142][    INFO] Iters: 576, Total loss: 0.057, Loss x: 0.069, Loss s: 0.081, Loss w_fp: 0.008, Mask ratio: 0.828
+[2023-06-13 04:53:53,754][    INFO] Iters: 720, Total loss: 0.057, Loss x: 0.069, Loss s: 0.081, Loss w_fp: 0.008, Mask ratio: 0.828
+[2023-06-13 04:55:46,194][    INFO] Iters: 864, Total loss: 0.057, Loss x: 0.069, Loss s: 0.080, Loss w_fp: 0.008, Mask ratio: 0.830
+[2023-06-13 04:57:38,148][    INFO] Iters: 1008, Total loss: 0.057, Loss x: 0.070, Loss s: 0.080, Loss w_fp: 0.008, Mask ratio: 0.831
+[2023-06-13 04:59:30,064][    INFO] Iters: 1152, Total loss: 0.057, Loss x: 0.069, Loss s: 0.079, Loss w_fp: 0.008, Mask ratio: 0.828
+[2023-06-13 04:59:57,475][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.03
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 87.52
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.81
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 81.49
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 63.62
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 73.87
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 92.34
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 86.19
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 91.01
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 27.12
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 82.31
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 47.43
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 86.12
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 81.19
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 84.28
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 83.08
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 51.47
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 82.07
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 42.71
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 86.70
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 68.50
+[2023-06-13 04:59:57,476][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 73.09
+
+[2023-06-13 04:59:57,980][    INFO] ===========> Epoch: 35, LR: 0.00060, Previous best: 73.21
+[2023-06-13 04:59:58,729][    INFO] Iters: 0, Total loss: 0.046, Loss x: 0.053, Loss s: 0.073, Loss w_fp: 0.006, Mask ratio: 0.836
+[2023-06-13 05:01:50,317][    INFO] Iters: 144, Total loss: 0.056, Loss x: 0.068, Loss s: 0.079, Loss w_fp: 0.007, Mask ratio: 0.819
+[2023-06-13 05:03:42,189][    INFO] Iters: 288, Total loss: 0.055, Loss x: 0.069, Loss s: 0.075, Loss w_fp: 0.007, Mask ratio: 0.821
+[2023-06-13 05:05:34,710][    INFO] Iters: 432, Total loss: 0.056, Loss x: 0.069, Loss s: 0.078, Loss w_fp: 0.007, Mask ratio: 0.823
+[2023-06-13 05:07:27,650][    INFO] Iters: 576, Total loss: 0.057, Loss x: 0.070, Loss s: 0.079, Loss w_fp: 0.008, Mask ratio: 0.823
+[2023-06-13 05:09:19,948][    INFO] Iters: 720, Total loss: 0.056, Loss x: 0.069, Loss s: 0.078, Loss w_fp: 0.008, Mask ratio: 0.825
+[2023-06-13 05:11:12,635][    INFO] Iters: 864, Total loss: 0.056, Loss x: 0.070, Loss s: 0.079, Loss w_fp: 0.008, Mask ratio: 0.825
+[2023-06-13 05:13:04,968][    INFO] Iters: 1008, Total loss: 0.057, Loss x: 0.070, Loss s: 0.081, Loss w_fp: 0.008, Mask ratio: 0.825
+[2023-06-13 05:14:57,671][    INFO] Iters: 1152, Total loss: 0.057, Loss x: 0.070, Loss s: 0.081, Loss w_fp: 0.008, Mask ratio: 0.824
+[2023-06-13 05:15:00,726][    INFO] ===========> Epoch: 36, LR: 0.00058, Previous best: 73.21
+[2023-06-13 05:15:01,483][    INFO] Iters: 0, Total loss: 0.051, Loss x: 0.073, Loss s: 0.054, Loss w_fp: 0.004, Mask ratio: 0.809
+[2023-06-13 05:16:52,868][    INFO] Iters: 144, Total loss: 0.055, Loss x: 0.069, Loss s: 0.073, Loss w_fp: 0.008, Mask ratio: 0.824
+[2023-06-13 05:18:45,024][    INFO] Iters: 288, Total loss: 0.054, Loss x: 0.068, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.823
+[2023-06-13 05:20:37,414][    INFO] Iters: 432, Total loss: 0.055, Loss x: 0.069, Loss s: 0.073, Loss w_fp: 0.008, Mask ratio: 0.827
+[2023-06-13 05:22:29,922][    INFO] Iters: 576, Total loss: 0.055, Loss x: 0.069, Loss s: 0.074, Loss w_fp: 0.008, Mask ratio: 0.828
+[2023-06-13 05:24:23,000][    INFO] Iters: 720, Total loss: 0.055, Loss x: 0.068, Loss s: 0.077, Loss w_fp: 0.008, Mask ratio: 0.830
+[2023-06-13 05:26:15,402][    INFO] Iters: 864, Total loss: 0.056, Loss x: 0.068, Loss s: 0.079, Loss w_fp: 0.008, Mask ratio: 0.830
+[2023-06-13 05:28:07,365][    INFO] Iters: 1008, Total loss: 0.057, Loss x: 0.069, Loss s: 0.080, Loss w_fp: 0.008, Mask ratio: 0.831
+[2023-06-13 05:29:59,731][    INFO] Iters: 1152, Total loss: 0.057, Loss x: 0.069, Loss s: 0.080, Loss w_fp: 0.008, Mask ratio: 0.830
+[2023-06-13 05:30:27,410][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 92.76
+[2023-06-13 05:30:27,410][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 87.06
+[2023-06-13 05:30:27,410][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 43.30
+[2023-06-13 05:30:27,410][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 74.07
+[2023-06-13 05:30:27,410][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 64.02
+[2023-06-13 05:30:27,410][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 73.09
+[2023-06-13 05:30:27,410][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 92.79
+[2023-06-13 05:30:27,410][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 86.18
+[2023-06-13 05:30:27,410][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 89.79
+[2023-06-13 05:30:27,411][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 29.43
+[2023-06-13 05:30:27,411][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 74.50
+[2023-06-13 05:30:27,411][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 49.74
+[2023-06-13 05:30:27,411][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 83.88
+[2023-06-13 05:30:27,411][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 78.08
+[2023-06-13 05:30:27,411][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 82.97
+[2023-06-13 05:30:27,411][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 83.60
+[2023-06-13 05:30:27,411][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 51.66
+[2023-06-13 05:30:27,411][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 69.34
+[2023-06-13 05:30:27,411][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 40.39
+[2023-06-13 05:30:27,411][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 86.72
+[2023-06-13 05:30:27,411][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 68.94
+[2023-06-13 05:30:27,411][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 71.54
+
+[2023-06-13 05:30:27,956][    INFO] ===========> Epoch: 37, LR: 0.00057, Previous best: 73.21
+[2023-06-13 05:30:28,737][    INFO] Iters: 0, Total loss: 0.042, Loss x: 0.039, Loss s: 0.082, Loss w_fp: 0.009, Mask ratio: 0.902
+[2023-06-13 05:32:20,518][    INFO] Iters: 144, Total loss: 0.055, Loss x: 0.068, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.832
+[2023-06-13 05:34:12,626][    INFO] Iters: 288, Total loss: 0.056, Loss x: 0.070, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.829
+[2023-06-13 05:36:04,758][    INFO] Iters: 432, Total loss: 0.055, Loss x: 0.069, Loss s: 0.074, Loss w_fp: 0.008, Mask ratio: 0.831
+[2023-06-13 05:37:57,688][    INFO] Iters: 576, Total loss: 0.055, Loss x: 0.068, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.831
+[2023-06-13 05:39:50,673][    INFO] Iters: 720, Total loss: 0.056, Loss x: 0.068, Loss s: 0.078, Loss w_fp: 0.009, Mask ratio: 0.832
+[2023-06-13 05:41:42,939][    INFO] Iters: 864, Total loss: 0.056, Loss x: 0.068, Loss s: 0.079, Loss w_fp: 0.009, Mask ratio: 0.831
+[2023-06-13 05:43:35,363][    INFO] Iters: 1008, Total loss: 0.056, Loss x: 0.068, Loss s: 0.080, Loss w_fp: 0.009, Mask ratio: 0.831
+[2023-06-13 05:45:27,266][    INFO] Iters: 1152, Total loss: 0.056, Loss x: 0.068, Loss s: 0.080, Loss w_fp: 0.009, Mask ratio: 0.829
+[2023-06-13 05:45:30,422][    INFO] ===========> Epoch: 38, LR: 0.00056, Previous best: 73.21
+[2023-06-13 05:45:31,208][    INFO] Iters: 0, Total loss: 0.045, Loss x: 0.065, Loss s: 0.041, Loss w_fp: 0.009, Mask ratio: 0.871
+[2023-06-13 05:47:22,935][    INFO] Iters: 144, Total loss: 0.053, Loss x: 0.066, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.828
+[2023-06-13 05:49:15,969][    INFO] Iters: 288, Total loss: 0.053, Loss x: 0.066, Loss s: 0.074, Loss w_fp: 0.007, Mask ratio: 0.829
+[2023-06-13 05:51:07,956][    INFO] Iters: 432, Total loss: 0.053, Loss x: 0.066, Loss s: 0.074, Loss w_fp: 0.007, Mask ratio: 0.834
+[2023-06-13 05:53:00,904][    INFO] Iters: 576, Total loss: 0.054, Loss x: 0.066, Loss s: 0.076, Loss w_fp: 0.008, Mask ratio: 0.837
+[2023-06-13 05:54:54,121][    INFO] Iters: 720, Total loss: 0.055, Loss x: 0.067, Loss s: 0.078, Loss w_fp: 0.008, Mask ratio: 0.837
+[2023-06-13 05:56:46,401][    INFO] Iters: 864, Total loss: 0.055, Loss x: 0.067, Loss s: 0.079, Loss w_fp: 0.008, Mask ratio: 0.837
+[2023-06-13 05:58:39,004][    INFO] Iters: 1008, Total loss: 0.055, Loss x: 0.067, Loss s: 0.080, Loss w_fp: 0.009, Mask ratio: 0.836
+[2023-06-13 06:00:31,381][    INFO] Iters: 1152, Total loss: 0.055, Loss x: 0.067, Loss s: 0.080, Loss w_fp: 0.008, Mask ratio: 0.835
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.08
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 88.14
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 41.35
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 81.44
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 67.13
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 75.53
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 92.62
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 86.94
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 89.66
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 27.89
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 84.56
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 46.97
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 85.43
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 83.30
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 84.18
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 83.17
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 52.11
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 80.37
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 40.24
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 86.46
+[2023-06-13 06:00:58,757][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 67.47
+[2023-06-13 06:00:58,758][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 73.24
+
+[2023-06-13 06:00:59,687][    INFO] ===========> Epoch: 39, LR: 0.00055, Previous best: 73.24
+[2023-06-13 06:01:00,405][    INFO] Iters: 0, Total loss: 0.043, Loss x: 0.054, Loss s: 0.042, Loss w_fp: 0.022, Mask ratio: 0.866
+[2023-06-13 06:02:52,122][    INFO] Iters: 144, Total loss: 0.052, Loss x: 0.065, Loss s: 0.072, Loss w_fp: 0.007, Mask ratio: 0.822
+[2023-06-13 06:04:44,085][    INFO] Iters: 288, Total loss: 0.053, Loss x: 0.067, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.824
+[2023-06-13 06:06:36,098][    INFO] Iters: 432, Total loss: 0.053, Loss x: 0.068, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.826
+[2023-06-13 06:08:28,902][    INFO] Iters: 576, Total loss: 0.055, Loss x: 0.068, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.829
+[2023-06-13 06:10:21,829][    INFO] Iters: 720, Total loss: 0.054, Loss x: 0.067, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.830
+[2023-06-13 06:12:13,849][    INFO] Iters: 864, Total loss: 0.054, Loss x: 0.067, Loss s: 0.077, Loss w_fp: 0.008, Mask ratio: 0.832
+[2023-06-13 06:14:06,218][    INFO] Iters: 1008, Total loss: 0.055, Loss x: 0.067, Loss s: 0.077, Loss w_fp: 0.008, Mask ratio: 0.831
+[2023-06-13 06:15:59,013][    INFO] Iters: 1152, Total loss: 0.055, Loss x: 0.067, Loss s: 0.077, Loss w_fp: 0.008, Mask ratio: 0.829
+[2023-06-13 06:16:02,020][    INFO] ===========> Epoch: 40, LR: 0.00054, Previous best: 73.24
+[2023-06-13 06:16:02,790][    INFO] Iters: 0, Total loss: 0.053, Loss x: 0.055, Loss s: 0.093, Loss w_fp: 0.008, Mask ratio: 0.905
+[2023-06-13 06:17:54,547][    INFO] Iters: 144, Total loss: 0.054, Loss x: 0.067, Loss s: 0.074, Loss w_fp: 0.007, Mask ratio: 0.822
+[2023-06-13 06:19:46,548][    INFO] Iters: 288, Total loss: 0.054, Loss x: 0.068, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.825
+[2023-06-13 06:21:38,737][    INFO] Iters: 432, Total loss: 0.054, Loss x: 0.069, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.830
+[2023-06-13 06:23:31,047][    INFO] Iters: 576, Total loss: 0.054, Loss x: 0.068, Loss s: 0.072, Loss w_fp: 0.007, Mask ratio: 0.832
+[2023-06-13 06:25:23,616][    INFO] Iters: 720, Total loss: 0.054, Loss x: 0.067, Loss s: 0.075, Loss w_fp: 0.007, Mask ratio: 0.833
+[2023-06-13 06:27:15,761][    INFO] Iters: 864, Total loss: 0.054, Loss x: 0.067, Loss s: 0.076, Loss w_fp: 0.007, Mask ratio: 0.833
+[2023-06-13 06:29:07,592][    INFO] Iters: 1008, Total loss: 0.054, Loss x: 0.067, Loss s: 0.076, Loss w_fp: 0.007, Mask ratio: 0.835
+[2023-06-13 06:30:59,921][    INFO] Iters: 1152, Total loss: 0.054, Loss x: 0.066, Loss s: 0.076, Loss w_fp: 0.007, Mask ratio: 0.834
+[2023-06-13 06:31:27,464][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.07
+[2023-06-13 06:31:27,464][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 86.71
+[2023-06-13 06:31:27,464][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 43.41
+[2023-06-13 06:31:27,464][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 78.82
+[2023-06-13 06:31:27,464][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 64.67
+[2023-06-13 06:31:27,464][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 72.18
+[2023-06-13 06:31:27,464][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 92.72
+[2023-06-13 06:31:27,464][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 87.06
+[2023-06-13 06:31:27,464][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 90.55
+[2023-06-13 06:31:27,465][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 28.23
+[2023-06-13 06:31:27,465][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 85.53
+[2023-06-13 06:31:27,465][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 47.44
+[2023-06-13 06:31:27,465][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 86.09
+[2023-06-13 06:31:27,465][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 85.36
+[2023-06-13 06:31:27,465][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 85.18
+[2023-06-13 06:31:27,465][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 83.68
+[2023-06-13 06:31:27,465][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 49.88
+[2023-06-13 06:31:27,465][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 84.23
+[2023-06-13 06:31:27,465][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 40.49
+[2023-06-13 06:31:27,465][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 86.60
+[2023-06-13 06:31:27,465][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 68.60
+[2023-06-13 06:31:27,465][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 73.36
+
+[2023-06-13 06:31:28,523][    INFO] ===========> Epoch: 41, LR: 0.00052, Previous best: 73.36
+[2023-06-13 06:31:29,264][    INFO] Iters: 0, Total loss: 0.042, Loss x: 0.050, Loss s: 0.054, Loss w_fp: 0.013, Mask ratio: 0.855
+[2023-06-13 06:33:20,970][    INFO] Iters: 144, Total loss: 0.054, Loss x: 0.070, Loss s: 0.068, Loss w_fp: 0.006, Mask ratio: 0.828
+[2023-06-13 06:35:13,391][    INFO] Iters: 288, Total loss: 0.053, Loss x: 0.069, Loss s: 0.067, Loss w_fp: 0.007, Mask ratio: 0.832
+[2023-06-13 06:37:05,027][    INFO] Iters: 432, Total loss: 0.053, Loss x: 0.068, Loss s: 0.068, Loss w_fp: 0.007, Mask ratio: 0.834
+[2023-06-13 06:38:58,207][    INFO] Iters: 576, Total loss: 0.054, Loss x: 0.068, Loss s: 0.070, Loss w_fp: 0.007, Mask ratio: 0.835
+[2023-06-13 06:40:50,542][    INFO] Iters: 720, Total loss: 0.054, Loss x: 0.068, Loss s: 0.073, Loss w_fp: 0.007, Mask ratio: 0.836
+[2023-06-13 06:42:43,093][    INFO] Iters: 864, Total loss: 0.054, Loss x: 0.068, Loss s: 0.074, Loss w_fp: 0.008, Mask ratio: 0.835
+[2023-06-13 06:44:35,199][    INFO] Iters: 1008, Total loss: 0.054, Loss x: 0.068, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.835
+[2023-06-13 06:46:27,557][    INFO] Iters: 1152, Total loss: 0.055, Loss x: 0.068, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.833
+[2023-06-13 06:46:30,656][    INFO] ===========> Epoch: 42, LR: 0.00051, Previous best: 73.36
+[2023-06-13 06:46:31,411][    INFO] Iters: 0, Total loss: 0.054, Loss x: 0.043, Loss s: 0.110, Loss w_fp: 0.021, Mask ratio: 0.799
+[2023-06-13 06:48:23,234][    INFO] Iters: 144, Total loss: 0.054, Loss x: 0.066, Loss s: 0.077, Loss w_fp: 0.006, Mask ratio: 0.831
+[2023-06-13 06:50:15,223][    INFO] Iters: 288, Total loss: 0.053, Loss x: 0.066, Loss s: 0.075, Loss w_fp: 0.007, Mask ratio: 0.832
+[2023-06-13 06:52:06,723][    INFO] Iters: 432, Total loss: 0.053, Loss x: 0.067, Loss s: 0.073, Loss w_fp: 0.007, Mask ratio: 0.835
+[2023-06-13 06:53:59,322][    INFO] Iters: 576, Total loss: 0.053, Loss x: 0.066, Loss s: 0.073, Loss w_fp: 0.007, Mask ratio: 0.836
+[2023-06-13 06:55:52,281][    INFO] Iters: 720, Total loss: 0.053, Loss x: 0.066, Loss s: 0.074, Loss w_fp: 0.007, Mask ratio: 0.838
+[2023-06-13 06:57:45,018][    INFO] Iters: 864, Total loss: 0.054, Loss x: 0.066, Loss s: 0.074, Loss w_fp: 0.007, Mask ratio: 0.837
+[2023-06-13 06:59:36,624][    INFO] Iters: 1008, Total loss: 0.053, Loss x: 0.066, Loss s: 0.075, Loss w_fp: 0.007, Mask ratio: 0.836
+[2023-06-13 07:01:28,763][    INFO] Iters: 1152, Total loss: 0.053, Loss x: 0.066, Loss s: 0.074, Loss w_fp: 0.007, Mask ratio: 0.835
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.18
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 88.77
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 43.15
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 79.80
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 66.38
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 73.99
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 92.99
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 86.33
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 90.62
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 28.66
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 86.53
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 48.49
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 85.65
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 84.51
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 83.78
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 83.30
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 49.14
+[2023-06-13 07:01:56,293][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 84.18
+[2023-06-13 07:01:56,294][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 43.60
+[2023-06-13 07:01:56,294][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 86.20
+[2023-06-13 07:01:56,294][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 69.54
+[2023-06-13 07:01:56,294][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 73.75
+
+[2023-06-13 07:01:57,277][    INFO] ===========> Epoch: 43, LR: 0.00050, Previous best: 73.75
+[2023-06-13 07:01:58,076][    INFO] Iters: 0, Total loss: 0.056, Loss x: 0.055, Loss s: 0.105, Loss w_fp: 0.007, Mask ratio: 0.868
+[2023-06-13 07:03:49,690][    INFO] Iters: 144, Total loss: 0.051, Loss x: 0.064, Loss s: 0.069, Loss w_fp: 0.007, Mask ratio: 0.833
+[2023-06-13 07:05:41,735][    INFO] Iters: 288, Total loss: 0.052, Loss x: 0.065, Loss s: 0.070, Loss w_fp: 0.007, Mask ratio: 0.833
+[2023-06-13 07:07:33,859][    INFO] Iters: 432, Total loss: 0.052, Loss x: 0.064, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.837
+[2023-06-13 07:09:27,101][    INFO] Iters: 576, Total loss: 0.052, Loss x: 0.064, Loss s: 0.073, Loss w_fp: 0.008, Mask ratio: 0.837
+[2023-06-13 07:11:19,792][    INFO] Iters: 720, Total loss: 0.053, Loss x: 0.064, Loss s: 0.074, Loss w_fp: 0.008, Mask ratio: 0.839
+[2023-06-13 07:13:12,446][    INFO] Iters: 864, Total loss: 0.053, Loss x: 0.064, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.839
+[2023-06-13 07:15:05,290][    INFO] Iters: 1008, Total loss: 0.053, Loss x: 0.064, Loss s: 0.076, Loss w_fp: 0.008, Mask ratio: 0.840
+[2023-06-13 07:16:57,302][    INFO] Iters: 1152, Total loss: 0.053, Loss x: 0.064, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.840
+[2023-06-13 07:17:00,451][    INFO] ===========> Epoch: 44, LR: 0.00049, Previous best: 73.75
+[2023-06-13 07:17:01,242][    INFO] Iters: 0, Total loss: 0.054, Loss x: 0.066, Loss s: 0.048, Loss w_fp: 0.035, Mask ratio: 0.832
+[2023-06-13 07:18:52,787][    INFO] Iters: 144, Total loss: 0.052, Loss x: 0.062, Loss s: 0.076, Loss w_fp: 0.008, Mask ratio: 0.832
+[2023-06-13 07:20:44,570][    INFO] Iters: 288, Total loss: 0.052, Loss x: 0.063, Loss s: 0.074, Loss w_fp: 0.007, Mask ratio: 0.836
+[2023-06-13 07:22:36,410][    INFO] Iters: 432, Total loss: 0.052, Loss x: 0.064, Loss s: 0.074, Loss w_fp: 0.008, Mask ratio: 0.840
+[2023-06-13 07:24:29,561][    INFO] Iters: 576, Total loss: 0.052, Loss x: 0.063, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.840
+[2023-06-13 07:26:22,225][    INFO] Iters: 720, Total loss: 0.053, Loss x: 0.064, Loss s: 0.077, Loss w_fp: 0.008, Mask ratio: 0.840
+[2023-06-13 07:28:14,672][    INFO] Iters: 864, Total loss: 0.053, Loss x: 0.064, Loss s: 0.077, Loss w_fp: 0.008, Mask ratio: 0.841
+[2023-06-13 07:30:07,050][    INFO] Iters: 1008, Total loss: 0.054, Loss x: 0.064, Loss s: 0.078, Loss w_fp: 0.008, Mask ratio: 0.841
+[2023-06-13 07:31:59,582][    INFO] Iters: 1152, Total loss: 0.053, Loss x: 0.064, Loss s: 0.077, Loss w_fp: 0.008, Mask ratio: 0.841
+[2023-06-13 07:32:27,038][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.16
+[2023-06-13 07:32:27,038][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 86.95
+[2023-06-13 07:32:27,038][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.50
+[2023-06-13 07:32:27,038][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 78.19
+[2023-06-13 07:32:27,038][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 65.15
+[2023-06-13 07:32:27,038][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 73.40
+[2023-06-13 07:32:27,038][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 92.97
+[2023-06-13 07:32:27,038][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 87.33
+[2023-06-13 07:32:27,038][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 89.88
+[2023-06-13 07:32:27,038][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 26.99
+[2023-06-13 07:32:27,038][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 84.13
+[2023-06-13 07:32:27,038][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 49.04
+[2023-06-13 07:32:27,038][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 85.10
+[2023-06-13 07:32:27,038][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 82.53
+[2023-06-13 07:32:27,039][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 84.09
+[2023-06-13 07:32:27,039][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 83.64
+[2023-06-13 07:32:27,039][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 47.34
+[2023-06-13 07:32:27,039][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 86.19
+[2023-06-13 07:32:27,039][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 48.55
+[2023-06-13 07:32:27,039][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 87.40
+[2023-06-13 07:32:27,039][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 63.06
+[2023-06-13 07:32:27,039][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 73.22
+
+[2023-06-13 07:32:27,548][    INFO] ===========> Epoch: 45, LR: 0.00048, Previous best: 73.75
+[2023-06-13 07:32:28,284][    INFO] Iters: 0, Total loss: 0.040, Loss x: 0.053, Loss s: 0.031, Loss w_fp: 0.021, Mask ratio: 0.886
+[2023-06-13 07:34:19,472][    INFO] Iters: 144, Total loss: 0.054, Loss x: 0.065, Loss s: 0.078, Loss w_fp: 0.009, Mask ratio: 0.839
+[2023-06-13 07:36:11,792][    INFO] Iters: 288, Total loss: 0.053, Loss x: 0.064, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.838
+[2023-06-13 07:38:03,486][    INFO] Iters: 432, Total loss: 0.053, Loss x: 0.064, Loss s: 0.076, Loss w_fp: 0.008, Mask ratio: 0.841
+[2023-06-13 07:39:56,108][    INFO] Iters: 576, Total loss: 0.053, Loss x: 0.064, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.841
+[2023-06-13 07:41:48,864][    INFO] Iters: 720, Total loss: 0.052, Loss x: 0.063, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.843
+[2023-06-13 07:43:41,451][    INFO] Iters: 864, Total loss: 0.052, Loss x: 0.063, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.843
+[2023-06-13 07:45:33,012][    INFO] Iters: 1008, Total loss: 0.052, Loss x: 0.063, Loss s: 0.076, Loss w_fp: 0.008, Mask ratio: 0.843
+[2023-06-13 07:47:25,307][    INFO] Iters: 1152, Total loss: 0.053, Loss x: 0.063, Loss s: 0.077, Loss w_fp: 0.008, Mask ratio: 0.842
+[2023-06-13 07:47:28,469][    INFO] ===========> Epoch: 46, LR: 0.00046, Previous best: 73.75
+[2023-06-13 07:47:29,227][    INFO] Iters: 0, Total loss: 0.037, Loss x: 0.040, Loss s: 0.058, Loss w_fp: 0.010, Mask ratio: 0.819
+[2023-06-13 07:49:20,781][    INFO] Iters: 144, Total loss: 0.051, Loss x: 0.064, Loss s: 0.067, Loss w_fp: 0.007, Mask ratio: 0.833
+[2023-06-13 07:51:12,700][    INFO] Iters: 288, Total loss: 0.051, Loss x: 0.064, Loss s: 0.069, Loss w_fp: 0.007, Mask ratio: 0.839
+[2023-06-13 07:53:04,359][    INFO] Iters: 432, Total loss: 0.051, Loss x: 0.063, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.842
+[2023-06-13 07:54:56,866][    INFO] Iters: 576, Total loss: 0.052, Loss x: 0.063, Loss s: 0.073, Loss w_fp: 0.008, Mask ratio: 0.843
+[2023-06-13 07:56:49,477][    INFO] Iters: 720, Total loss: 0.051, Loss x: 0.063, Loss s: 0.073, Loss w_fp: 0.008, Mask ratio: 0.843
+[2023-06-13 07:58:42,372][    INFO] Iters: 864, Total loss: 0.052, Loss x: 0.063, Loss s: 0.074, Loss w_fp: 0.008, Mask ratio: 0.843
+[2023-06-13 08:00:35,027][    INFO] Iters: 1008, Total loss: 0.052, Loss x: 0.063, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.843
+[2023-06-13 08:02:28,095][    INFO] Iters: 1152, Total loss: 0.052, Loss x: 0.063, Loss s: 0.076, Loss w_fp: 0.008, Mask ratio: 0.842
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.37
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 87.85
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 43.21
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 87.30
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 64.19
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 73.58
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 92.54
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 88.11
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 90.43
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 26.80
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 82.39
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 52.40
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 86.28
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 84.76
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 84.73
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 83.76
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 48.72
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 76.45
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 46.72
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 87.94
+[2023-06-13 08:02:55,503][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 67.50
+[2023-06-13 08:02:55,504][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 73.76
+
+[2023-06-13 08:02:56,561][    INFO] ===========> Epoch: 47, LR: 0.00045, Previous best: 73.76
+[2023-06-13 08:02:57,362][    INFO] Iters: 0, Total loss: 0.052, Loss x: 0.048, Loss s: 0.100, Loss w_fp: 0.012, Mask ratio: 0.867
+[2023-06-13 08:04:49,024][    INFO] Iters: 144, Total loss: 0.052, Loss x: 0.065, Loss s: 0.073, Loss w_fp: 0.007, Mask ratio: 0.832
+[2023-06-13 08:06:41,267][    INFO] Iters: 288, Total loss: 0.051, Loss x: 0.064, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.836
+[2023-06-13 08:08:33,237][    INFO] Iters: 432, Total loss: 0.051, Loss x: 0.063, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.839
+[2023-06-13 08:10:26,414][    INFO] Iters: 576, Total loss: 0.051, Loss x: 0.062, Loss s: 0.073, Loss w_fp: 0.008, Mask ratio: 0.840
+[2023-06-13 08:12:19,219][    INFO] Iters: 720, Total loss: 0.051, Loss x: 0.062, Loss s: 0.074, Loss w_fp: 0.008, Mask ratio: 0.841
+[2023-06-13 08:14:11,712][    INFO] Iters: 864, Total loss: 0.052, Loss x: 0.062, Loss s: 0.076, Loss w_fp: 0.008, Mask ratio: 0.842
+[2023-06-13 08:16:03,490][    INFO] Iters: 1008, Total loss: 0.052, Loss x: 0.062, Loss s: 0.076, Loss w_fp: 0.008, Mask ratio: 0.843
+[2023-06-13 08:17:56,586][    INFO] Iters: 1152, Total loss: 0.052, Loss x: 0.062, Loss s: 0.076, Loss w_fp: 0.008, Mask ratio: 0.842
+[2023-06-13 08:17:59,725][    INFO] ===========> Epoch: 48, LR: 0.00044, Previous best: 73.76
+[2023-06-13 08:18:00,468][    INFO] Iters: 0, Total loss: 0.039, Loss x: 0.061, Loss s: 0.031, Loss w_fp: 0.002, Mask ratio: 0.902
+[2023-06-13 08:19:52,043][    INFO] Iters: 144, Total loss: 0.050, Loss x: 0.060, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.842
+[2023-06-13 08:21:44,118][    INFO] Iters: 288, Total loss: 0.051, Loss x: 0.062, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.842
+[2023-06-13 08:23:35,932][    INFO] Iters: 432, Total loss: 0.051, Loss x: 0.062, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.844
+[2023-06-13 08:25:28,546][    INFO] Iters: 576, Total loss: 0.051, Loss x: 0.062, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.845
+[2023-06-13 08:27:20,934][    INFO] Iters: 720, Total loss: 0.051, Loss x: 0.062, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.847
+[2023-06-13 08:29:13,534][    INFO] Iters: 864, Total loss: 0.051, Loss x: 0.062, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.848
+[2023-06-13 08:31:06,425][    INFO] Iters: 1008, Total loss: 0.051, Loss x: 0.061, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.848
+[2023-06-13 08:32:58,573][    INFO] Iters: 1152, Total loss: 0.051, Loss x: 0.061, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.847
+[2023-06-13 08:33:26,055][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.42
+[2023-06-13 08:33:26,055][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 87.30
+[2023-06-13 08:33:26,055][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 43.30
+[2023-06-13 08:33:26,055][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 82.56
+[2023-06-13 08:33:26,055][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 65.52
+[2023-06-13 08:33:26,055][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 74.14
+[2023-06-13 08:33:26,055][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 93.11
+[2023-06-13 08:33:26,055][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 87.67
+[2023-06-13 08:33:26,055][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 90.20
+[2023-06-13 08:33:26,056][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 27.75
+[2023-06-13 08:33:26,056][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 86.46
+[2023-06-13 08:33:26,056][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 54.59
+[2023-06-13 08:33:26,056][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 86.36
+[2023-06-13 08:33:26,056][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 81.69
+[2023-06-13 08:33:26,056][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 82.99
+[2023-06-13 08:33:26,056][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 83.62
+[2023-06-13 08:33:26,056][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 52.62
+[2023-06-13 08:33:26,056][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 79.12
+[2023-06-13 08:33:26,056][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 46.13
+[2023-06-13 08:33:26,056][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 87.25
+[2023-06-13 08:33:26,056][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 68.79
+[2023-06-13 08:33:26,056][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 74.03
+
+[2023-06-13 08:33:27,021][    INFO] ===========> Epoch: 49, LR: 0.00043, Previous best: 74.03
+[2023-06-13 08:33:27,753][    INFO] Iters: 0, Total loss: 0.046, Loss x: 0.064, Loss s: 0.031, Loss w_fp: 0.026, Mask ratio: 0.893
+[2023-06-13 08:35:19,472][    INFO] Iters: 144, Total loss: 0.051, Loss x: 0.064, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.847
+[2023-06-13 08:37:11,512][    INFO] Iters: 288, Total loss: 0.050, Loss x: 0.062, Loss s: 0.069, Loss w_fp: 0.007, Mask ratio: 0.846
+[2023-06-13 08:39:04,157][    INFO] Iters: 432, Total loss: 0.050, Loss x: 0.062, Loss s: 0.069, Loss w_fp: 0.007, Mask ratio: 0.847
+[2023-06-13 08:40:57,282][    INFO] Iters: 576, Total loss: 0.050, Loss x: 0.062, Loss s: 0.070, Loss w_fp: 0.007, Mask ratio: 0.847
+[2023-06-13 08:42:50,029][    INFO] Iters: 720, Total loss: 0.050, Loss x: 0.061, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.848
+[2023-06-13 08:44:42,094][    INFO] Iters: 864, Total loss: 0.050, Loss x: 0.061, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.848
+[2023-06-13 08:46:33,989][    INFO] Iters: 1008, Total loss: 0.050, Loss x: 0.060, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.848
+[2023-06-13 08:48:26,172][    INFO] Iters: 1152, Total loss: 0.050, Loss x: 0.060, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.847
+[2023-06-13 08:48:29,265][    INFO] ===========> Epoch: 50, LR: 0.00041, Previous best: 74.03
+[2023-06-13 08:48:30,073][    INFO] Iters: 0, Total loss: 0.039, Loss x: 0.038, Loss s: 0.072, Loss w_fp: 0.007, Mask ratio: 0.868
+[2023-06-13 08:50:21,996][    INFO] Iters: 144, Total loss: 0.049, Loss x: 0.059, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.841
+[2023-06-13 08:52:14,566][    INFO] Iters: 288, Total loss: 0.049, Loss x: 0.060, Loss s: 0.070, Loss w_fp: 0.007, Mask ratio: 0.840
+[2023-06-13 08:54:06,178][    INFO] Iters: 432, Total loss: 0.049, Loss x: 0.060, Loss s: 0.070, Loss w_fp: 0.007, Mask ratio: 0.843
+[2023-06-13 08:55:58,691][    INFO] Iters: 576, Total loss: 0.049, Loss x: 0.060, Loss s: 0.070, Loss w_fp: 0.007, Mask ratio: 0.845
+[2023-06-13 08:57:51,277][    INFO] Iters: 720, Total loss: 0.049, Loss x: 0.059, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.847
+[2023-06-13 08:59:44,204][    INFO] Iters: 864, Total loss: 0.049, Loss x: 0.059, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.848
+[2023-06-13 09:01:36,402][    INFO] Iters: 1008, Total loss: 0.049, Loss x: 0.059, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.848
+[2023-06-13 09:03:29,208][    INFO] Iters: 1152, Total loss: 0.050, Loss x: 0.059, Loss s: 0.073, Loss w_fp: 0.008, Mask ratio: 0.846
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.41
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 87.61
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.53
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 78.45
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 66.55
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 73.88
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 92.98
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 88.03
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 90.75
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 28.84
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 85.73
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 50.98
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 86.68
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 81.42
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 84.57
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 84.12
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 54.36
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 82.87
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 47.04
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 86.28
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 67.76
+[2023-06-13 09:03:56,950][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 74.04
+
+[2023-06-13 09:03:57,924][    INFO] ===========> Epoch: 51, LR: 0.00040, Previous best: 74.04
+[2023-06-13 09:03:58,639][    INFO] Iters: 0, Total loss: 0.034, Loss x: 0.044, Loss s: 0.043, Loss w_fp: 0.005, Mask ratio: 0.879
+[2023-06-13 09:05:50,559][    INFO] Iters: 144, Total loss: 0.049, Loss x: 0.060, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.840
+[2023-06-13 09:07:43,215][    INFO] Iters: 288, Total loss: 0.049, Loss x: 0.060, Loss s: 0.068, Loss w_fp: 0.007, Mask ratio: 0.842
+[2023-06-13 09:09:35,669][    INFO] Iters: 432, Total loss: 0.050, Loss x: 0.060, Loss s: 0.073, Loss w_fp: 0.007, Mask ratio: 0.844
+[2023-06-13 09:11:28,331][    INFO] Iters: 576, Total loss: 0.050, Loss x: 0.061, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.846
+[2023-06-13 09:13:20,502][    INFO] Iters: 720, Total loss: 0.050, Loss x: 0.061, Loss s: 0.073, Loss w_fp: 0.007, Mask ratio: 0.848
+[2023-06-13 09:15:13,035][    INFO] Iters: 864, Total loss: 0.050, Loss x: 0.060, Loss s: 0.072, Loss w_fp: 0.007, Mask ratio: 0.849
+[2023-06-13 09:17:05,342][    INFO] Iters: 1008, Total loss: 0.050, Loss x: 0.060, Loss s: 0.073, Loss w_fp: 0.007, Mask ratio: 0.849
+[2023-06-13 09:18:58,037][    INFO] Iters: 1152, Total loss: 0.050, Loss x: 0.060, Loss s: 0.073, Loss w_fp: 0.008, Mask ratio: 0.848
+[2023-06-13 09:19:01,265][    INFO] ===========> Epoch: 52, LR: 0.00039, Previous best: 74.04
+[2023-06-13 09:19:02,042][    INFO] Iters: 0, Total loss: 0.055, Loss x: 0.061, Loss s: 0.088, Loss w_fp: 0.011, Mask ratio: 0.822
+[2023-06-13 09:20:53,626][    INFO] Iters: 144, Total loss: 0.047, Loss x: 0.059, Loss s: 0.065, Loss w_fp: 0.006, Mask ratio: 0.846
+[2023-06-13 09:22:45,340][    INFO] Iters: 288, Total loss: 0.047, Loss x: 0.059, Loss s: 0.064, Loss w_fp: 0.006, Mask ratio: 0.847
+[2023-06-13 09:24:36,907][    INFO] Iters: 432, Total loss: 0.048, Loss x: 0.058, Loss s: 0.069, Loss w_fp: 0.007, Mask ratio: 0.849
+[2023-06-13 09:26:29,908][    INFO] Iters: 576, Total loss: 0.049, Loss x: 0.058, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.850
+[2023-06-13 09:28:21,989][    INFO] Iters: 720, Total loss: 0.049, Loss x: 0.058, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.852
+[2023-06-13 09:30:14,360][    INFO] Iters: 864, Total loss: 0.049, Loss x: 0.059, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.852
+[2023-06-13 09:32:06,363][    INFO] Iters: 1008, Total loss: 0.049, Loss x: 0.059, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.852
+[2023-06-13 09:33:58,792][    INFO] Iters: 1152, Total loss: 0.050, Loss x: 0.059, Loss s: 0.073, Loss w_fp: 0.008, Mask ratio: 0.850
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.39
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 88.09
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 43.82
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 82.65
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 65.89
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 74.31
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 93.48
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 88.09
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 90.89
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 28.97
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 78.48
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 53.68
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 85.07
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 80.87
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 83.60
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 83.74
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 47.62
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 77.95
+[2023-06-13 09:34:26,083][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 44.41
+[2023-06-13 09:34:26,084][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 88.24
+[2023-06-13 09:34:26,084][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 67.85
+[2023-06-13 09:34:26,084][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 73.39
+
+[2023-06-13 09:34:26,584][    INFO] ===========> Epoch: 53, LR: 0.00038, Previous best: 74.04
+[2023-06-13 09:34:27,317][    INFO] Iters: 0, Total loss: 0.039, Loss x: 0.045, Loss s: 0.053, Loss w_fp: 0.015, Mask ratio: 0.863
+[2023-06-13 09:36:18,914][    INFO] Iters: 144, Total loss: 0.048, Loss x: 0.057, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.853
+[2023-06-13 09:38:11,387][    INFO] Iters: 288, Total loss: 0.048, Loss x: 0.058, Loss s: 0.070, Loss w_fp: 0.007, Mask ratio: 0.852
+[2023-06-13 09:40:03,951][    INFO] Iters: 432, Total loss: 0.049, Loss x: 0.059, Loss s: 0.072, Loss w_fp: 0.007, Mask ratio: 0.852
+[2023-06-13 09:41:56,712][    INFO] Iters: 576, Total loss: 0.049, Loss x: 0.058, Loss s: 0.073, Loss w_fp: 0.008, Mask ratio: 0.852
+[2023-06-13 09:43:49,449][    INFO] Iters: 720, Total loss: 0.049, Loss x: 0.058, Loss s: 0.073, Loss w_fp: 0.008, Mask ratio: 0.852
+[2023-06-13 09:45:41,880][    INFO] Iters: 864, Total loss: 0.050, Loss x: 0.059, Loss s: 0.074, Loss w_fp: 0.008, Mask ratio: 0.853
+[2023-06-13 09:47:34,007][    INFO] Iters: 1008, Total loss: 0.050, Loss x: 0.058, Loss s: 0.075, Loss w_fp: 0.008, Mask ratio: 0.852
+[2023-06-13 09:49:26,651][    INFO] Iters: 1152, Total loss: 0.050, Loss x: 0.059, Loss s: 0.076, Loss w_fp: 0.008, Mask ratio: 0.851
+[2023-06-13 09:49:29,761][    INFO] ===========> Epoch: 54, LR: 0.00036, Previous best: 74.04
+[2023-06-13 09:49:30,547][    INFO] Iters: 0, Total loss: 0.038, Loss x: 0.053, Loss s: 0.040, Loss w_fp: 0.006, Mask ratio: 0.888
+[2023-06-13 09:51:22,215][    INFO] Iters: 144, Total loss: 0.047, Loss x: 0.057, Loss s: 0.066, Loss w_fp: 0.009, Mask ratio: 0.850
+[2023-06-13 09:53:14,221][    INFO] Iters: 288, Total loss: 0.048, Loss x: 0.058, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.848
+[2023-06-13 09:55:06,448][    INFO] Iters: 432, Total loss: 0.049, Loss x: 0.059, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.850
+[2023-06-13 09:56:59,335][    INFO] Iters: 576, Total loss: 0.049, Loss x: 0.059, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.851
+[2023-06-13 09:58:52,194][    INFO] Iters: 720, Total loss: 0.049, Loss x: 0.059, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.851
+[2023-06-13 10:00:44,139][    INFO] Iters: 864, Total loss: 0.049, Loss x: 0.059, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.850
+[2023-06-13 10:02:36,688][    INFO] Iters: 1008, Total loss: 0.050, Loss x: 0.059, Loss s: 0.073, Loss w_fp: 0.008, Mask ratio: 0.850
+[2023-06-13 10:04:28,810][    INFO] Iters: 1152, Total loss: 0.050, Loss x: 0.059, Loss s: 0.074, Loss w_fp: 0.008, Mask ratio: 0.849
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.43
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 87.96
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 43.82
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 85.44
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 63.82
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 75.50
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 93.69
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 87.96
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 91.93
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 26.61
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 81.57
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 49.95
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 86.97
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 83.12
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 83.69
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 84.20
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 51.76
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 79.62
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 43.03
+[2023-06-13 10:04:56,250][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 87.72
+[2023-06-13 10:04:56,251][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 69.33
+[2023-06-13 10:04:56,251][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 73.86
+
+[2023-06-13 10:04:56,798][    INFO] ===========> Epoch: 55, LR: 0.00035, Previous best: 74.04
+[2023-06-13 10:04:57,580][    INFO] Iters: 0, Total loss: 0.060, Loss x: 0.060, Loss s: 0.101, Loss w_fp: 0.018, Mask ratio: 0.830
+[2023-06-13 10:06:49,757][    INFO] Iters: 144, Total loss: 0.049, Loss x: 0.058, Loss s: 0.072, Loss w_fp: 0.007, Mask ratio: 0.847
+[2023-06-13 10:08:41,327][    INFO] Iters: 288, Total loss: 0.048, Loss x: 0.058, Loss s: 0.070, Loss w_fp: 0.007, Mask ratio: 0.849
+[2023-06-13 10:10:33,453][    INFO] Iters: 432, Total loss: 0.048, Loss x: 0.058, Loss s: 0.068, Loss w_fp: 0.007, Mask ratio: 0.850
+[2023-06-13 10:12:25,991][    INFO] Iters: 576, Total loss: 0.048, Loss x: 0.057, Loss s: 0.069, Loss w_fp: 0.007, Mask ratio: 0.854
+[2023-06-13 10:14:18,831][    INFO] Iters: 720, Total loss: 0.048, Loss x: 0.057, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.855
+[2023-06-13 10:16:11,748][    INFO] Iters: 864, Total loss: 0.049, Loss x: 0.058, Loss s: 0.072, Loss w_fp: 0.007, Mask ratio: 0.855
+[2023-06-13 10:18:04,465][    INFO] Iters: 1008, Total loss: 0.049, Loss x: 0.058, Loss s: 0.072, Loss w_fp: 0.007, Mask ratio: 0.855
+[2023-06-13 10:19:56,435][    INFO] Iters: 1152, Total loss: 0.049, Loss x: 0.057, Loss s: 0.072, Loss w_fp: 0.007, Mask ratio: 0.854
+[2023-06-13 10:19:59,555][    INFO] ===========> Epoch: 56, LR: 0.00034, Previous best: 74.04
+[2023-06-13 10:20:00,351][    INFO] Iters: 0, Total loss: 0.042, Loss x: 0.045, Loss s: 0.074, Loss w_fp: 0.005, Mask ratio: 0.873
+[2023-06-13 10:21:51,833][    INFO] Iters: 144, Total loss: 0.050, Loss x: 0.061, Loss s: 0.070, Loss w_fp: 0.007, Mask ratio: 0.848
+[2023-06-13 10:23:43,968][    INFO] Iters: 288, Total loss: 0.049, Loss x: 0.060, Loss s: 0.070, Loss w_fp: 0.007, Mask ratio: 0.849
+[2023-06-13 10:25:35,751][    INFO] Iters: 432, Total loss: 0.049, Loss x: 0.059, Loss s: 0.070, Loss w_fp: 0.007, Mask ratio: 0.850
+[2023-06-13 10:27:28,166][    INFO] Iters: 576, Total loss: 0.049, Loss x: 0.058, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.851
+[2023-06-13 10:29:20,573][    INFO] Iters: 720, Total loss: 0.048, Loss x: 0.057, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.853
+[2023-06-13 10:31:13,106][    INFO] Iters: 864, Total loss: 0.048, Loss x: 0.057, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.854
+[2023-06-13 10:33:04,930][    INFO] Iters: 1008, Total loss: 0.048, Loss x: 0.057, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.854
+[2023-06-13 10:34:57,272][    INFO] Iters: 1152, Total loss: 0.048, Loss x: 0.057, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.853
+[2023-06-13 10:35:25,103][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.44
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 88.37
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.87
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 84.71
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 66.20
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 77.00
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 93.59
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 88.41
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 91.35
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 28.98
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 82.55
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 48.58
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 86.36
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 83.19
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 85.40
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 83.83
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 55.03
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 81.07
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 42.82
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 87.31
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 69.29
+[2023-06-13 10:35:25,104][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 74.30
+
+[2023-06-13 10:35:26,160][    INFO] ===========> Epoch: 57, LR: 0.00033, Previous best: 74.30
+[2023-06-13 10:35:26,937][    INFO] Iters: 0, Total loss: 0.043, Loss x: 0.051, Loss s: 0.049, Loss w_fp: 0.022, Mask ratio: 0.878
+[2023-06-13 10:37:18,159][    INFO] Iters: 144, Total loss: 0.047, Loss x: 0.056, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.849
+[2023-06-13 10:39:10,744][    INFO] Iters: 288, Total loss: 0.047, Loss x: 0.056, Loss s: 0.068, Loss w_fp: 0.007, Mask ratio: 0.849
+[2023-06-13 10:41:02,619][    INFO] Iters: 432, Total loss: 0.047, Loss x: 0.057, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.852
+[2023-06-13 10:42:54,770][    INFO] Iters: 576, Total loss: 0.047, Loss x: 0.056, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.853
+[2023-06-13 10:44:47,845][    INFO] Iters: 720, Total loss: 0.047, Loss x: 0.056, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.853
+[2023-06-13 10:46:40,290][    INFO] Iters: 864, Total loss: 0.048, Loss x: 0.056, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.854
+[2023-06-13 10:48:32,336][    INFO] Iters: 1008, Total loss: 0.048, Loss x: 0.056, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.855
+[2023-06-13 10:50:25,134][    INFO] Iters: 1152, Total loss: 0.048, Loss x: 0.056, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.854
+[2023-06-13 10:50:28,280][    INFO] ===========> Epoch: 58, LR: 0.00031, Previous best: 74.30
+[2023-06-13 10:50:29,095][    INFO] Iters: 0, Total loss: 0.050, Loss x: 0.042, Loss s: 0.108, Loss w_fp: 0.008, Mask ratio: 0.857
+[2023-06-13 10:52:20,902][    INFO] Iters: 144, Total loss: 0.049, Loss x: 0.058, Loss s: 0.072, Loss w_fp: 0.007, Mask ratio: 0.851
+[2023-06-13 10:54:12,235][    INFO] Iters: 288, Total loss: 0.048, Loss x: 0.057, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.853
+[2023-06-13 10:56:04,323][    INFO] Iters: 432, Total loss: 0.048, Loss x: 0.057, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.854
+[2023-06-13 10:57:57,207][    INFO] Iters: 576, Total loss: 0.048, Loss x: 0.057, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.855
+[2023-06-13 10:59:49,636][    INFO] Iters: 720, Total loss: 0.048, Loss x: 0.057, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.856
+[2023-06-13 11:01:41,614][    INFO] Iters: 864, Total loss: 0.048, Loss x: 0.057, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.855
+[2023-06-13 11:03:33,792][    INFO] Iters: 1008, Total loss: 0.048, Loss x: 0.057, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.856
+[2023-06-13 11:05:26,301][    INFO] Iters: 1152, Total loss: 0.048, Loss x: 0.057, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.855
+[2023-06-13 11:05:53,627][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.53
+[2023-06-13 11:05:53,627][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 88.22
+[2023-06-13 11:05:53,627][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.55
+[2023-06-13 11:05:53,627][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 88.58
+[2023-06-13 11:05:53,627][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 64.91
+[2023-06-13 11:05:53,627][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 75.57
+[2023-06-13 11:05:53,627][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 93.81
+[2023-06-13 11:05:53,627][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 88.00
+[2023-06-13 11:05:53,627][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 91.31
+[2023-06-13 11:05:53,627][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 29.08
+[2023-06-13 11:05:53,627][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 85.76
+[2023-06-13 11:05:53,627][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 51.77
+[2023-06-13 11:05:53,627][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 86.09
+[2023-06-13 11:05:53,628][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 83.30
+[2023-06-13 11:05:53,628][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 84.90
+[2023-06-13 11:05:53,628][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 83.93
+[2023-06-13 11:05:53,628][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 53.88
+[2023-06-13 11:05:53,628][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 84.11
+[2023-06-13 11:05:53,628][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 46.31
+[2023-06-13 11:05:53,628][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 88.68
+[2023-06-13 11:05:53,628][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 69.01
+[2023-06-13 11:05:53,628][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 74.92
+
+[2023-06-13 11:05:54,575][    INFO] ===========> Epoch: 59, LR: 0.00030, Previous best: 74.92
+[2023-06-13 11:05:55,384][    INFO] Iters: 0, Total loss: 0.045, Loss x: 0.046, Loss s: 0.081, Loss w_fp: 0.006, Mask ratio: 0.879
+[2023-06-13 11:07:46,759][    INFO] Iters: 144, Total loss: 0.050, Loss x: 0.058, Loss s: 0.075, Loss w_fp: 0.007, Mask ratio: 0.847
+[2023-06-13 11:09:38,664][    INFO] Iters: 288, Total loss: 0.048, Loss x: 0.058, Loss s: 0.069, Loss w_fp: 0.007, Mask ratio: 0.849
+[2023-06-13 11:11:30,947][    INFO] Iters: 432, Total loss: 0.048, Loss x: 0.057, Loss s: 0.069, Loss w_fp: 0.007, Mask ratio: 0.851
+[2023-06-13 11:13:22,966][    INFO] Iters: 576, Total loss: 0.048, Loss x: 0.057, Loss s: 0.070, Loss w_fp: 0.007, Mask ratio: 0.851
+[2023-06-13 11:15:15,329][    INFO] Iters: 720, Total loss: 0.048, Loss x: 0.057, Loss s: 0.070, Loss w_fp: 0.007, Mask ratio: 0.853
+[2023-06-13 11:17:07,759][    INFO] Iters: 864, Total loss: 0.048, Loss x: 0.057, Loss s: 0.070, Loss w_fp: 0.007, Mask ratio: 0.854
+[2023-06-13 11:18:59,216][    INFO] Iters: 1008, Total loss: 0.048, Loss x: 0.057, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.855
+[2023-06-13 11:20:51,901][    INFO] Iters: 1152, Total loss: 0.048, Loss x: 0.057, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.854
+[2023-06-13 11:20:54,966][    INFO] ===========> Epoch: 60, LR: 0.00029, Previous best: 74.92
+[2023-06-13 11:20:55,758][    INFO] Iters: 0, Total loss: 0.047, Loss x: 0.041, Loss s: 0.089, Loss w_fp: 0.017, Mask ratio: 0.891
+[2023-06-13 11:22:46,794][    INFO] Iters: 144, Total loss: 0.046, Loss x: 0.055, Loss s: 0.065, Loss w_fp: 0.007, Mask ratio: 0.852
+[2023-06-13 11:24:39,409][    INFO] Iters: 288, Total loss: 0.047, Loss x: 0.056, Loss s: 0.068, Loss w_fp: 0.007, Mask ratio: 0.852
+[2023-06-13 11:26:31,560][    INFO] Iters: 432, Total loss: 0.046, Loss x: 0.056, Loss s: 0.067, Loss w_fp: 0.007, Mask ratio: 0.855
+[2023-06-13 11:28:24,307][    INFO] Iters: 576, Total loss: 0.046, Loss x: 0.055, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.857
+[2023-06-13 11:30:16,648][    INFO] Iters: 720, Total loss: 0.047, Loss x: 0.055, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.858
+[2023-06-13 11:32:08,957][    INFO] Iters: 864, Total loss: 0.048, Loss x: 0.056, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.858
+[2023-06-13 11:34:01,532][    INFO] Iters: 1008, Total loss: 0.047, Loss x: 0.056, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.858
+[2023-06-13 11:35:54,009][    INFO] Iters: 1152, Total loss: 0.047, Loss x: 0.056, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.857
+[2023-06-13 11:36:21,407][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.51
+[2023-06-13 11:36:21,407][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 90.07
+[2023-06-13 11:36:21,407][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 43.76
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 86.33
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 65.60
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 76.31
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 93.80
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 88.86
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 90.31
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 28.72
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 86.37
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 48.98
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 86.23
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 83.86
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 84.96
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 84.39
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 52.88
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 86.31
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 40.12
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 87.09
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 67.74
+[2023-06-13 11:36:21,408][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 74.58
+
+[2023-06-13 11:36:21,943][    INFO] ===========> Epoch: 61, LR: 0.00027, Previous best: 74.92
+[2023-06-13 11:36:22,729][    INFO] Iters: 0, Total loss: 0.085, Loss x: 0.046, Loss s: 0.244, Loss w_fp: 0.006, Mask ratio: 0.815
+[2023-06-13 11:38:14,312][    INFO] Iters: 144, Total loss: 0.046, Loss x: 0.055, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.848
+[2023-06-13 11:40:06,641][    INFO] Iters: 288, Total loss: 0.046, Loss x: 0.055, Loss s: 0.066, Loss w_fp: 0.007, Mask ratio: 0.851
+[2023-06-13 11:41:59,279][    INFO] Iters: 432, Total loss: 0.046, Loss x: 0.056, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.853
+[2023-06-13 11:43:51,795][    INFO] Iters: 576, Total loss: 0.047, Loss x: 0.055, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.854
+[2023-06-13 11:45:44,762][    INFO] Iters: 720, Total loss: 0.047, Loss x: 0.055, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.856
+[2023-06-13 11:47:37,258][    INFO] Iters: 864, Total loss: 0.047, Loss x: 0.056, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.856
+[2023-06-13 11:49:29,880][    INFO] Iters: 1008, Total loss: 0.048, Loss x: 0.055, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.857
+[2023-06-13 11:51:22,560][    INFO] Iters: 1152, Total loss: 0.048, Loss x: 0.056, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.856
+[2023-06-13 11:51:25,734][    INFO] ===========> Epoch: 62, LR: 0.00026, Previous best: 74.92
+[2023-06-13 11:51:26,454][    INFO] Iters: 0, Total loss: 0.041, Loss x: 0.047, Loss s: 0.063, Loss w_fp: 0.005, Mask ratio: 0.875
+[2023-06-13 11:53:17,859][    INFO] Iters: 144, Total loss: 0.044, Loss x: 0.054, Loss s: 0.061, Loss w_fp: 0.007, Mask ratio: 0.854
+[2023-06-13 11:55:10,197][    INFO] Iters: 288, Total loss: 0.045, Loss x: 0.056, Loss s: 0.063, Loss w_fp: 0.007, Mask ratio: 0.854
+[2023-06-13 11:57:02,349][    INFO] Iters: 432, Total loss: 0.046, Loss x: 0.056, Loss s: 0.064, Loss w_fp: 0.007, Mask ratio: 0.856
+[2023-06-13 11:58:54,717][    INFO] Iters: 576, Total loss: 0.046, Loss x: 0.055, Loss s: 0.066, Loss w_fp: 0.007, Mask ratio: 0.856
+[2023-06-13 12:00:47,746][    INFO] Iters: 720, Total loss: 0.046, Loss x: 0.055, Loss s: 0.067, Loss w_fp: 0.007, Mask ratio: 0.858
+[2023-06-13 12:02:39,663][    INFO] Iters: 864, Total loss: 0.046, Loss x: 0.055, Loss s: 0.067, Loss w_fp: 0.007, Mask ratio: 0.859
+[2023-06-13 12:04:31,809][    INFO] Iters: 1008, Total loss: 0.046, Loss x: 0.055, Loss s: 0.068, Loss w_fp: 0.007, Mask ratio: 0.859
+[2023-06-13 12:06:24,884][    INFO] Iters: 1152, Total loss: 0.046, Loss x: 0.055, Loss s: 0.068, Loss w_fp: 0.007, Mask ratio: 0.858
+[2023-06-13 12:06:52,577][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.49
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 89.65
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 44.26
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 86.23
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 67.30
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 76.57
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 94.02
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 88.93
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 91.42
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 28.17
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 85.22
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 50.51
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 85.80
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 84.06
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 84.80
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 84.12
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 54.41
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 85.73
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 38.95
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 87.44
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 69.87
+[2023-06-13 12:06:52,578][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 74.81
+
+[2023-06-13 12:06:53,092][    INFO] ===========> Epoch: 63, LR: 0.00025, Previous best: 74.92
+[2023-06-13 12:06:53,868][    INFO] Iters: 0, Total loss: 0.030, Loss x: 0.042, Loss s: 0.027, Loss w_fp: 0.010, Mask ratio: 0.891
+[2023-06-13 12:08:45,434][    INFO] Iters: 144, Total loss: 0.046, Loss x: 0.054, Loss s: 0.068, Loss w_fp: 0.009, Mask ratio: 0.850
+[2023-06-13 12:10:36,795][    INFO] Iters: 288, Total loss: 0.046, Loss x: 0.054, Loss s: 0.067, Loss w_fp: 0.009, Mask ratio: 0.853
+[2023-06-13 12:12:29,105][    INFO] Iters: 432, Total loss: 0.046, Loss x: 0.054, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.856
+[2023-06-13 12:14:21,807][    INFO] Iters: 576, Total loss: 0.046, Loss x: 0.054, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.858
+[2023-06-13 12:16:14,751][    INFO] Iters: 720, Total loss: 0.046, Loss x: 0.054, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.859
+[2023-06-13 12:18:06,850][    INFO] Iters: 864, Total loss: 0.047, Loss x: 0.054, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.859
+[2023-06-13 12:19:58,895][    INFO] Iters: 1008, Total loss: 0.047, Loss x: 0.054, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.859
+[2023-06-13 12:21:51,024][    INFO] Iters: 1152, Total loss: 0.047, Loss x: 0.054, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.857
+[2023-06-13 12:21:54,174][    INFO] ===========> Epoch: 64, LR: 0.00023, Previous best: 74.92
+[2023-06-13 12:21:54,950][    INFO] Iters: 0, Total loss: 0.056, Loss x: 0.036, Loss s: 0.117, Loss w_fp: 0.034, Mask ratio: 0.840
+[2023-06-13 12:23:46,799][    INFO] Iters: 144, Total loss: 0.047, Loss x: 0.057, Loss s: 0.068, Loss w_fp: 0.006, Mask ratio: 0.851
+[2023-06-13 12:25:38,962][    INFO] Iters: 288, Total loss: 0.047, Loss x: 0.057, Loss s: 0.067, Loss w_fp: 0.006, Mask ratio: 0.852
+[2023-06-13 12:27:31,368][    INFO] Iters: 432, Total loss: 0.046, Loss x: 0.056, Loss s: 0.067, Loss w_fp: 0.007, Mask ratio: 0.855
+[2023-06-13 12:29:24,106][    INFO] Iters: 576, Total loss: 0.046, Loss x: 0.055, Loss s: 0.068, Loss w_fp: 0.007, Mask ratio: 0.858
+[2023-06-13 12:31:16,922][    INFO] Iters: 720, Total loss: 0.047, Loss x: 0.056, Loss s: 0.068, Loss w_fp: 0.007, Mask ratio: 0.860
+[2023-06-13 12:33:09,255][    INFO] Iters: 864, Total loss: 0.047, Loss x: 0.056, Loss s: 0.068, Loss w_fp: 0.007, Mask ratio: 0.860
+[2023-06-13 12:35:01,456][    INFO] Iters: 1008, Total loss: 0.047, Loss x: 0.055, Loss s: 0.069, Loss w_fp: 0.007, Mask ratio: 0.861
+[2023-06-13 12:36:53,677][    INFO] Iters: 1152, Total loss: 0.047, Loss x: 0.055, Loss s: 0.069, Loss w_fp: 0.007, Mask ratio: 0.860
+[2023-06-13 12:37:21,191][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.41
+[2023-06-13 12:37:21,191][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 88.52
+[2023-06-13 12:37:21,191][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 43.76
+[2023-06-13 12:37:21,191][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 80.62
+[2023-06-13 12:37:21,191][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 66.62
+[2023-06-13 12:37:21,191][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 77.11
+[2023-06-13 12:37:21,191][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 93.51
+[2023-06-13 12:37:21,191][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 88.64
+[2023-06-13 12:37:21,191][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 90.65
+[2023-06-13 12:37:21,191][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 29.43
+[2023-06-13 12:37:21,191][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 87.46
+[2023-06-13 12:37:21,191][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 51.57
+[2023-06-13 12:37:21,191][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 86.41
+[2023-06-13 12:37:21,191][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 84.03
+[2023-06-13 12:37:21,192][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 84.52
+[2023-06-13 12:37:21,192][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 84.48
+[2023-06-13 12:37:21,192][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 53.57
+[2023-06-13 12:37:21,192][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 81.62
+[2023-06-13 12:37:21,192][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 43.29
+[2023-06-13 12:37:21,192][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 86.62
+[2023-06-13 12:37:21,192][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 64.40
+[2023-06-13 12:37:21,192][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 74.30
+
+[2023-06-13 12:37:21,755][    INFO] ===========> Epoch: 65, LR: 0.00022, Previous best: 74.92
+[2023-06-13 12:37:22,536][    INFO] Iters: 0, Total loss: 0.050, Loss x: 0.056, Loss s: 0.081, Loss w_fp: 0.007, Mask ratio: 0.823
+[2023-06-13 12:39:14,211][    INFO] Iters: 144, Total loss: 0.044, Loss x: 0.052, Loss s: 0.066, Loss w_fp: 0.008, Mask ratio: 0.859
+[2023-06-13 12:41:06,173][    INFO] Iters: 288, Total loss: 0.045, Loss x: 0.053, Loss s: 0.065, Loss w_fp: 0.007, Mask ratio: 0.856
+[2023-06-13 12:42:58,104][    INFO] Iters: 432, Total loss: 0.045, Loss x: 0.053, Loss s: 0.065, Loss w_fp: 0.007, Mask ratio: 0.858
+[2023-06-13 12:44:51,097][    INFO] Iters: 576, Total loss: 0.045, Loss x: 0.053, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.861
+[2023-06-13 12:46:43,774][    INFO] Iters: 720, Total loss: 0.046, Loss x: 0.053, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.861
+[2023-06-13 12:48:36,519][    INFO] Iters: 864, Total loss: 0.046, Loss x: 0.054, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.862
+[2023-06-13 12:50:29,339][    INFO] Iters: 1008, Total loss: 0.046, Loss x: 0.053, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 12:52:22,229][    INFO] Iters: 1152, Total loss: 0.046, Loss x: 0.054, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.862
+[2023-06-13 12:52:25,358][    INFO] ===========> Epoch: 66, LR: 0.00021, Previous best: 74.92
+[2023-06-13 12:52:26,130][    INFO] Iters: 0, Total loss: 0.039, Loss x: 0.047, Loss s: 0.058, Loss w_fp: 0.005, Mask ratio: 0.872
+[2023-06-13 12:54:18,306][    INFO] Iters: 144, Total loss: 0.046, Loss x: 0.053, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.857
+[2023-06-13 12:56:10,545][    INFO] Iters: 288, Total loss: 0.046, Loss x: 0.054, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.859
+[2023-06-13 12:58:02,666][    INFO] Iters: 432, Total loss: 0.046, Loss x: 0.054, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.860
+[2023-06-13 12:59:55,003][    INFO] Iters: 576, Total loss: 0.046, Loss x: 0.054, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 13:01:47,750][    INFO] Iters: 720, Total loss: 0.046, Loss x: 0.054, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 13:03:40,196][    INFO] Iters: 864, Total loss: 0.046, Loss x: 0.054, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 13:05:32,702][    INFO] Iters: 1008, Total loss: 0.047, Loss x: 0.055, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 13:07:24,920][    INFO] Iters: 1152, Total loss: 0.047, Loss x: 0.054, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.862
+[2023-06-13 13:07:52,618][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.29
+[2023-06-13 13:07:52,618][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 88.94
+[2023-06-13 13:07:52,618][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.93
+[2023-06-13 13:07:52,618][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 74.68
+[2023-06-13 13:07:52,618][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 66.17
+[2023-06-13 13:07:52,618][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 75.86
+[2023-06-13 13:07:52,618][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 93.54
+[2023-06-13 13:07:52,618][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 88.16
+[2023-06-13 13:07:52,618][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 92.00
+[2023-06-13 13:07:52,618][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 30.19
+[2023-06-13 13:07:52,618][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 86.65
+[2023-06-13 13:07:52,618][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 47.93
+[2023-06-13 13:07:52,619][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 84.95
+[2023-06-13 13:07:52,619][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 84.85
+[2023-06-13 13:07:52,619][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 84.29
+[2023-06-13 13:07:52,619][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 84.26
+[2023-06-13 13:07:52,619][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 53.76
+[2023-06-13 13:07:52,619][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 83.29
+[2023-06-13 13:07:52,619][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 42.78
+[2023-06-13 13:07:52,619][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 87.18
+[2023-06-13 13:07:52,619][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 69.48
+[2023-06-13 13:07:52,619][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 74.05
+
+[2023-06-13 13:07:53,093][    INFO] ===========> Epoch: 67, LR: 0.00019, Previous best: 74.92
+[2023-06-13 13:07:53,820][    INFO] Iters: 0, Total loss: 0.042, Loss x: 0.047, Loss s: 0.066, Loss w_fp: 0.010, Mask ratio: 0.888
+[2023-06-13 13:09:45,993][    INFO] Iters: 144, Total loss: 0.045, Loss x: 0.053, Loss s: 0.066, Loss w_fp: 0.007, Mask ratio: 0.855
+[2023-06-13 13:11:38,219][    INFO] Iters: 288, Total loss: 0.045, Loss x: 0.054, Loss s: 0.065, Loss w_fp: 0.006, Mask ratio: 0.856
+[2023-06-13 13:13:30,314][    INFO] Iters: 432, Total loss: 0.046, Loss x: 0.054, Loss s: 0.069, Loss w_fp: 0.007, Mask ratio: 0.859
+[2023-06-13 13:15:23,397][    INFO] Iters: 576, Total loss: 0.046, Loss x: 0.054, Loss s: 0.069, Loss w_fp: 0.007, Mask ratio: 0.861
+[2023-06-13 13:17:16,249][    INFO] Iters: 720, Total loss: 0.046, Loss x: 0.053, Loss s: 0.070, Loss w_fp: 0.007, Mask ratio: 0.862
+[2023-06-13 13:19:08,787][    INFO] Iters: 864, Total loss: 0.046, Loss x: 0.053, Loss s: 0.071, Loss w_fp: 0.007, Mask ratio: 0.862
+[2023-06-13 13:21:01,026][    INFO] Iters: 1008, Total loss: 0.046, Loss x: 0.053, Loss s: 0.072, Loss w_fp: 0.008, Mask ratio: 0.861
+[2023-06-13 13:22:52,884][    INFO] Iters: 1152, Total loss: 0.046, Loss x: 0.053, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.861
+[2023-06-13 13:22:56,083][    INFO] ===========> Epoch: 68, LR: 0.00018, Previous best: 74.92
+[2023-06-13 13:22:56,880][    INFO] Iters: 0, Total loss: 0.038, Loss x: 0.046, Loss s: 0.054, Loss w_fp: 0.004, Mask ratio: 0.873
+[2023-06-13 13:24:48,332][    INFO] Iters: 144, Total loss: 0.046, Loss x: 0.052, Loss s: 0.070, Loss w_fp: 0.008, Mask ratio: 0.859
+[2023-06-13 13:26:40,184][    INFO] Iters: 288, Total loss: 0.045, Loss x: 0.053, Loss s: 0.066, Loss w_fp: 0.007, Mask ratio: 0.859
+[2023-06-13 13:28:31,472][    INFO] Iters: 432, Total loss: 0.045, Loss x: 0.053, Loss s: 0.067, Loss w_fp: 0.007, Mask ratio: 0.858
+[2023-06-13 13:30:24,135][    INFO] Iters: 576, Total loss: 0.045, Loss x: 0.053, Loss s: 0.067, Loss w_fp: 0.007, Mask ratio: 0.860
+[2023-06-13 13:32:16,731][    INFO] Iters: 720, Total loss: 0.045, Loss x: 0.053, Loss s: 0.068, Loss w_fp: 0.007, Mask ratio: 0.861
+[2023-06-13 13:34:09,776][    INFO] Iters: 864, Total loss: 0.046, Loss x: 0.053, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.861
+[2023-06-13 13:36:01,655][    INFO] Iters: 1008, Total loss: 0.045, Loss x: 0.053, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.862
+[2023-06-13 13:37:54,238][    INFO] Iters: 1152, Total loss: 0.045, Loss x: 0.053, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.861
+[2023-06-13 13:38:21,667][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.38
+[2023-06-13 13:38:21,667][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 88.29
+[2023-06-13 13:38:21,667][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 43.16
+[2023-06-13 13:38:21,667][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 77.27
+[2023-06-13 13:38:21,667][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 66.08
+[2023-06-13 13:38:21,667][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 76.08
+[2023-06-13 13:38:21,667][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 93.29
+[2023-06-13 13:38:21,667][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 88.54
+[2023-06-13 13:38:21,667][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 91.65
+[2023-06-13 13:38:21,667][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 29.90
+[2023-06-13 13:38:21,667][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 87.06
+[2023-06-13 13:38:21,667][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 50.99
+[2023-06-13 13:38:21,667][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 87.07
+[2023-06-13 13:38:21,667][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 85.80
+[2023-06-13 13:38:21,667][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 84.74
+[2023-06-13 13:38:21,668][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 84.56
+[2023-06-13 13:38:21,668][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 54.02
+[2023-06-13 13:38:21,668][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 85.70
+[2023-06-13 13:38:21,668][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 42.29
+[2023-06-13 13:38:21,668][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 87.62
+[2023-06-13 13:38:21,668][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 69.39
+[2023-06-13 13:38:21,668][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 74.61
+
+[2023-06-13 13:38:22,203][    INFO] ===========> Epoch: 69, LR: 0.00017, Previous best: 74.92
+[2023-06-13 13:38:22,998][    INFO] Iters: 0, Total loss: 0.046, Loss x: 0.035, Loss s: 0.108, Loss w_fp: 0.006, Mask ratio: 0.888
+[2023-06-13 13:40:14,009][    INFO] Iters: 144, Total loss: 0.043, Loss x: 0.052, Loss s: 0.062, Loss w_fp: 0.006, Mask ratio: 0.861
+[2023-06-13 13:42:05,957][    INFO] Iters: 288, Total loss: 0.044, Loss x: 0.053, Loss s: 0.062, Loss w_fp: 0.006, Mask ratio: 0.862
+[2023-06-13 13:43:57,767][    INFO] Iters: 432, Total loss: 0.044, Loss x: 0.052, Loss s: 0.065, Loss w_fp: 0.007, Mask ratio: 0.863
+[2023-06-13 13:45:50,725][    INFO] Iters: 576, Total loss: 0.044, Loss x: 0.052, Loss s: 0.066, Loss w_fp: 0.008, Mask ratio: 0.864
+[2023-06-13 13:47:43,173][    INFO] Iters: 720, Total loss: 0.045, Loss x: 0.052, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.864
+[2023-06-13 13:49:35,067][    INFO] Iters: 864, Total loss: 0.045, Loss x: 0.052, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 13:51:27,226][    INFO] Iters: 1008, Total loss: 0.045, Loss x: 0.052, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 13:53:19,676][    INFO] Iters: 1152, Total loss: 0.045, Loss x: 0.052, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.861
+[2023-06-13 13:53:22,832][    INFO] ===========> Epoch: 70, LR: 0.00015, Previous best: 74.92
+[2023-06-13 13:53:23,620][    INFO] Iters: 0, Total loss: 0.034, Loss x: 0.054, Loss s: 0.016, Loss w_fp: 0.012, Mask ratio: 0.885
+[2023-06-13 13:55:14,955][    INFO] Iters: 144, Total loss: 0.044, Loss x: 0.051, Loss s: 0.066, Loss w_fp: 0.007, Mask ratio: 0.856
+[2023-06-13 13:57:06,859][    INFO] Iters: 288, Total loss: 0.044, Loss x: 0.052, Loss s: 0.066, Loss w_fp: 0.008, Mask ratio: 0.854
+[2023-06-13 13:58:58,975][    INFO] Iters: 432, Total loss: 0.044, Loss x: 0.052, Loss s: 0.065, Loss w_fp: 0.008, Mask ratio: 0.859
+[2023-06-13 14:00:51,778][    INFO] Iters: 576, Total loss: 0.045, Loss x: 0.053, Loss s: 0.066, Loss w_fp: 0.008, Mask ratio: 0.861
+[2023-06-13 14:02:44,100][    INFO] Iters: 720, Total loss: 0.045, Loss x: 0.053, Loss s: 0.066, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 14:04:36,388][    INFO] Iters: 864, Total loss: 0.045, Loss x: 0.053, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 14:06:28,216][    INFO] Iters: 1008, Total loss: 0.045, Loss x: 0.052, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.864
+[2023-06-13 14:08:20,581][    INFO] Iters: 1152, Total loss: 0.045, Loss x: 0.052, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 14:08:48,145][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.09
+[2023-06-13 14:08:48,145][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 88.90
+[2023-06-13 14:08:48,145][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 43.27
+[2023-06-13 14:08:48,145][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 72.04
+[2023-06-13 14:08:48,145][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 65.92
+[2023-06-13 14:08:48,145][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 75.86
+[2023-06-13 14:08:48,145][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 93.74
+[2023-06-13 14:08:48,145][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 88.98
+[2023-06-13 14:08:48,145][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 89.77
+[2023-06-13 14:08:48,145][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 28.41
+[2023-06-13 14:08:48,145][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 84.62
+[2023-06-13 14:08:48,145][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 44.77
+[2023-06-13 14:08:48,145][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 85.92
+[2023-06-13 14:08:48,145][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 83.38
+[2023-06-13 14:08:48,145][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 84.84
+[2023-06-13 14:08:48,146][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 83.98
+[2023-06-13 14:08:48,146][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 50.47
+[2023-06-13 14:08:48,146][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 82.42
+[2023-06-13 14:08:48,146][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 38.69
+[2023-06-13 14:08:48,146][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 87.38
+[2023-06-13 14:08:48,146][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 66.24
+[2023-06-13 14:08:48,146][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 72.99
+
+[2023-06-13 14:08:48,676][    INFO] ===========> Epoch: 71, LR: 0.00014, Previous best: 74.92
+[2023-06-13 14:08:49,469][    INFO] Iters: 0, Total loss: 0.043, Loss x: 0.063, Loss s: 0.042, Loss w_fp: 0.006, Mask ratio: 0.924
+[2023-06-13 14:10:41,089][    INFO] Iters: 144, Total loss: 0.043, Loss x: 0.050, Loss s: 0.064, Loss w_fp: 0.008, Mask ratio: 0.857
+[2023-06-13 14:12:33,454][    INFO] Iters: 288, Total loss: 0.044, Loss x: 0.051, Loss s: 0.064, Loss w_fp: 0.008, Mask ratio: 0.857
+[2023-06-13 14:14:25,291][    INFO] Iters: 432, Total loss: 0.044, Loss x: 0.051, Loss s: 0.064, Loss w_fp: 0.007, Mask ratio: 0.861
+[2023-06-13 14:16:18,002][    INFO] Iters: 576, Total loss: 0.044, Loss x: 0.051, Loss s: 0.065, Loss w_fp: 0.007, Mask ratio: 0.862
+[2023-06-13 14:18:10,530][    INFO] Iters: 720, Total loss: 0.044, Loss x: 0.051, Loss s: 0.066, Loss w_fp: 0.007, Mask ratio: 0.864
+[2023-06-13 14:20:03,268][    INFO] Iters: 864, Total loss: 0.044, Loss x: 0.051, Loss s: 0.066, Loss w_fp: 0.008, Mask ratio: 0.865
+[2023-06-13 14:21:55,572][    INFO] Iters: 1008, Total loss: 0.044, Loss x: 0.051, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.865
+[2023-06-13 14:23:47,874][    INFO] Iters: 1152, Total loss: 0.044, Loss x: 0.051, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.864
+[2023-06-13 14:23:50,930][    INFO] ===========> Epoch: 72, LR: 0.00013, Previous best: 74.92
+[2023-06-13 14:23:51,722][    INFO] Iters: 0, Total loss: 0.042, Loss x: 0.046, Loss s: 0.072, Loss w_fp: 0.004, Mask ratio: 0.917
+[2023-06-13 14:25:43,797][    INFO] Iters: 144, Total loss: 0.044, Loss x: 0.051, Loss s: 0.066, Loss w_fp: 0.009, Mask ratio: 0.858
+[2023-06-13 14:27:36,003][    INFO] Iters: 288, Total loss: 0.045, Loss x: 0.052, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.859
+[2023-06-13 14:29:28,366][    INFO] Iters: 432, Total loss: 0.044, Loss x: 0.052, Loss s: 0.065, Loss w_fp: 0.008, Mask ratio: 0.861
+[2023-06-13 14:31:21,000][    INFO] Iters: 576, Total loss: 0.045, Loss x: 0.052, Loss s: 0.066, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 14:33:13,824][    INFO] Iters: 720, Total loss: 0.045, Loss x: 0.052, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 14:35:06,579][    INFO] Iters: 864, Total loss: 0.045, Loss x: 0.052, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 14:36:58,291][    INFO] Iters: 1008, Total loss: 0.045, Loss x: 0.052, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.864
+[2023-06-13 14:38:50,848][    INFO] Iters: 1152, Total loss: 0.045, Loss x: 0.052, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.40
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 89.14
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.95
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 83.32
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 65.79
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 76.49
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 93.77
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 88.91
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 90.60
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 29.29
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 84.80
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 45.05
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 84.60
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 83.22
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 84.53
+[2023-06-13 14:39:18,214][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 84.23
+[2023-06-13 14:39:18,215][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 50.27
+[2023-06-13 14:39:18,215][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 84.37
+[2023-06-13 14:39:18,215][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 39.96
+[2023-06-13 14:39:18,215][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 87.97
+[2023-06-13 14:39:18,215][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 66.49
+[2023-06-13 14:39:18,215][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 73.77
+
+[2023-06-13 14:39:18,718][    INFO] ===========> Epoch: 73, LR: 0.00011, Previous best: 74.92
+[2023-06-13 14:39:19,489][    INFO] Iters: 0, Total loss: 0.040, Loss x: 0.044, Loss s: 0.056, Loss w_fp: 0.015, Mask ratio: 0.878
+[2023-06-13 14:41:10,967][    INFO] Iters: 144, Total loss: 0.044, Loss x: 0.051, Loss s: 0.067, Loss w_fp: 0.007, Mask ratio: 0.862
+[2023-06-13 14:43:02,872][    INFO] Iters: 288, Total loss: 0.044, Loss x: 0.051, Loss s: 0.066, Loss w_fp: 0.007, Mask ratio: 0.861
+[2023-06-13 14:44:55,052][    INFO] Iters: 432, Total loss: 0.044, Loss x: 0.051, Loss s: 0.064, Loss w_fp: 0.007, Mask ratio: 0.862
+[2023-06-13 14:46:47,882][    INFO] Iters: 576, Total loss: 0.044, Loss x: 0.052, Loss s: 0.065, Loss w_fp: 0.007, Mask ratio: 0.863
+[2023-06-13 14:48:40,137][    INFO] Iters: 720, Total loss: 0.045, Loss x: 0.052, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.865
+[2023-06-13 14:50:32,469][    INFO] Iters: 864, Total loss: 0.045, Loss x: 0.052, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.865
+[2023-06-13 14:52:24,809][    INFO] Iters: 1008, Total loss: 0.045, Loss x: 0.052, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.865
+[2023-06-13 14:54:17,017][    INFO] Iters: 1152, Total loss: 0.045, Loss x: 0.052, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.864
+[2023-06-13 14:54:20,144][    INFO] ===========> Epoch: 74, LR: 0.00010, Previous best: 74.92
+[2023-06-13 14:54:20,886][    INFO] Iters: 0, Total loss: 0.039, Loss x: 0.062, Loss s: 0.028, Loss w_fp: 0.003, Mask ratio: 0.927
+[2023-06-13 14:56:12,203][    INFO] Iters: 144, Total loss: 0.044, Loss x: 0.051, Loss s: 0.064, Loss w_fp: 0.008, Mask ratio: 0.860
+[2023-06-13 14:58:04,419][    INFO] Iters: 288, Total loss: 0.043, Loss x: 0.051, Loss s: 0.062, Loss w_fp: 0.007, Mask ratio: 0.861
+[2023-06-13 14:59:56,431][    INFO] Iters: 432, Total loss: 0.044, Loss x: 0.052, Loss s: 0.064, Loss w_fp: 0.007, Mask ratio: 0.864
+[2023-06-13 15:01:48,933][    INFO] Iters: 576, Total loss: 0.044, Loss x: 0.052, Loss s: 0.064, Loss w_fp: 0.007, Mask ratio: 0.865
+[2023-06-13 15:03:40,946][    INFO] Iters: 720, Total loss: 0.044, Loss x: 0.051, Loss s: 0.065, Loss w_fp: 0.007, Mask ratio: 0.866
+[2023-06-13 15:05:32,798][    INFO] Iters: 864, Total loss: 0.044, Loss x: 0.051, Loss s: 0.065, Loss w_fp: 0.007, Mask ratio: 0.865
+[2023-06-13 15:07:25,480][    INFO] Iters: 1008, Total loss: 0.044, Loss x: 0.051, Loss s: 0.065, Loss w_fp: 0.008, Mask ratio: 0.865
+[2023-06-13 15:09:18,050][    INFO] Iters: 1152, Total loss: 0.044, Loss x: 0.051, Loss s: 0.066, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 15:09:45,649][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.40
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 90.07
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 43.33
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 84.45
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 67.20
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 76.03
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 93.60
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 89.29
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 90.93
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 28.93
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 85.01
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 46.29
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 86.01
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 83.27
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 84.67
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 84.20
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 52.82
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 83.01
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 40.42
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 87.30
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 67.38
+[2023-06-13 15:09:45,650][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 74.17
+
+[2023-06-13 15:09:46,218][    INFO] ===========> Epoch: 75, LR: 0.00008, Previous best: 74.92
+[2023-06-13 15:09:46,992][    INFO] Iters: 0, Total loss: 0.043, Loss x: 0.053, Loss s: 0.046, Loss w_fp: 0.021, Mask ratio: 0.861
+[2023-06-13 15:11:38,632][    INFO] Iters: 144, Total loss: 0.046, Loss x: 0.054, Loss s: 0.068, Loss w_fp: 0.007, Mask ratio: 0.857
+[2023-06-13 15:13:30,809][    INFO] Iters: 288, Total loss: 0.044, Loss x: 0.053, Loss s: 0.064, Loss w_fp: 0.007, Mask ratio: 0.861
+[2023-06-13 15:15:23,307][    INFO] Iters: 432, Total loss: 0.044, Loss x: 0.052, Loss s: 0.064, Loss w_fp: 0.008, Mask ratio: 0.864
+[2023-06-13 15:17:16,210][    INFO] Iters: 576, Total loss: 0.044, Loss x: 0.052, Loss s: 0.065, Loss w_fp: 0.008, Mask ratio: 0.864
+[2023-06-13 15:19:09,226][    INFO] Iters: 720, Total loss: 0.044, Loss x: 0.052, Loss s: 0.065, Loss w_fp: 0.008, Mask ratio: 0.865
+[2023-06-13 15:21:01,639][    INFO] Iters: 864, Total loss: 0.044, Loss x: 0.052, Loss s: 0.065, Loss w_fp: 0.009, Mask ratio: 0.865
+[2023-06-13 15:22:53,975][    INFO] Iters: 1008, Total loss: 0.044, Loss x: 0.051, Loss s: 0.066, Loss w_fp: 0.008, Mask ratio: 0.865
+[2023-06-13 15:24:46,459][    INFO] Iters: 1152, Total loss: 0.044, Loss x: 0.051, Loss s: 0.066, Loss w_fp: 0.008, Mask ratio: 0.864
+[2023-06-13 15:24:49,516][    INFO] ===========> Epoch: 76, LR: 0.00007, Previous best: 74.92
+[2023-06-13 15:24:50,327][    INFO] Iters: 0, Total loss: 0.034, Loss x: 0.035, Loss s: 0.047, Loss w_fp: 0.019, Mask ratio: 0.921
+[2023-06-13 15:26:41,352][    INFO] Iters: 144, Total loss: 0.044, Loss x: 0.051, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.862
+[2023-06-13 15:28:33,167][    INFO] Iters: 288, Total loss: 0.044, Loss x: 0.052, Loss s: 0.067, Loss w_fp: 0.007, Mask ratio: 0.862
+[2023-06-13 15:30:25,139][    INFO] Iters: 432, Total loss: 0.043, Loss x: 0.051, Loss s: 0.064, Loss w_fp: 0.007, Mask ratio: 0.864
+[2023-06-13 15:32:17,820][    INFO] Iters: 576, Total loss: 0.043, Loss x: 0.051, Loss s: 0.064, Loss w_fp: 0.007, Mask ratio: 0.866
+[2023-06-13 15:34:10,381][    INFO] Iters: 720, Total loss: 0.043, Loss x: 0.051, Loss s: 0.064, Loss w_fp: 0.007, Mask ratio: 0.867
+[2023-06-13 15:36:02,739][    INFO] Iters: 864, Total loss: 0.043, Loss x: 0.051, Loss s: 0.065, Loss w_fp: 0.007, Mask ratio: 0.868
+[2023-06-13 15:37:54,645][    INFO] Iters: 1008, Total loss: 0.044, Loss x: 0.051, Loss s: 0.065, Loss w_fp: 0.008, Mask ratio: 0.868
+[2023-06-13 15:39:46,444][    INFO] Iters: 1152, Total loss: 0.044, Loss x: 0.051, Loss s: 0.065, Loss w_fp: 0.008, Mask ratio: 0.867
+[2023-06-13 15:40:14,001][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.40
+[2023-06-13 15:40:14,001][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 89.37
+[2023-06-13 15:40:14,001][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 43.10
+[2023-06-13 15:40:14,001][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 79.65
+[2023-06-13 15:40:14,001][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 66.55
+[2023-06-13 15:40:14,001][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 76.06
+[2023-06-13 15:40:14,001][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 93.83
+[2023-06-13 15:40:14,001][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 89.13
+[2023-06-13 15:40:14,001][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 90.69
+[2023-06-13 15:40:14,001][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 30.08
+[2023-06-13 15:40:14,001][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 83.59
+[2023-06-13 15:40:14,001][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 50.41
+[2023-06-13 15:40:14,001][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 86.10
+[2023-06-13 15:40:14,001][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 82.42
+[2023-06-13 15:40:14,002][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 85.20
+[2023-06-13 15:40:14,002][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 84.18
+[2023-06-13 15:40:14,002][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 50.06
+[2023-06-13 15:40:14,002][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 84.80
+[2023-06-13 15:40:14,002][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 40.54
+[2023-06-13 15:40:14,002][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 87.83
+[2023-06-13 15:40:14,002][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 67.11
+[2023-06-13 15:40:14,002][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 74.01
+
+[2023-06-13 15:40:14,531][    INFO] ===========> Epoch: 77, LR: 0.00005, Previous best: 74.92
+[2023-06-13 15:40:15,315][    INFO] Iters: 0, Total loss: 0.050, Loss x: 0.040, Loss s: 0.116, Loss w_fp: 0.004, Mask ratio: 0.871
+[2023-06-13 15:42:06,987][    INFO] Iters: 144, Total loss: 0.044, Loss x: 0.050, Loss s: 0.072, Loss w_fp: 0.007, Mask ratio: 0.864
+[2023-06-13 15:43:58,681][    INFO] Iters: 288, Total loss: 0.045, Loss x: 0.051, Loss s: 0.071, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 15:45:50,966][    INFO] Iters: 432, Total loss: 0.044, Loss x: 0.051, Loss s: 0.069, Loss w_fp: 0.007, Mask ratio: 0.865
+[2023-06-13 15:47:43,747][    INFO] Iters: 576, Total loss: 0.044, Loss x: 0.050, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.866
+[2023-06-13 15:49:36,438][    INFO] Iters: 720, Total loss: 0.044, Loss x: 0.050, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.867
+[2023-06-13 15:51:28,693][    INFO] Iters: 864, Total loss: 0.045, Loss x: 0.050, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.867
+[2023-06-13 15:53:20,755][    INFO] Iters: 1008, Total loss: 0.045, Loss x: 0.050, Loss s: 0.069, Loss w_fp: 0.008, Mask ratio: 0.867
+[2023-06-13 15:55:13,118][    INFO] Iters: 1152, Total loss: 0.044, Loss x: 0.050, Loss s: 0.068, Loss w_fp: 0.009, Mask ratio: 0.865
+[2023-06-13 15:55:16,256][    INFO] ===========> Epoch: 78, LR: 0.00004, Previous best: 74.92
+[2023-06-13 15:55:17,025][    INFO] Iters: 0, Total loss: 0.023, Loss x: 0.035, Loss s: 0.016, Loss w_fp: 0.006, Mask ratio: 0.940
+[2023-06-13 15:57:08,650][    INFO] Iters: 144, Total loss: 0.044, Loss x: 0.052, Loss s: 0.063, Loss w_fp: 0.007, Mask ratio: 0.860
+[2023-06-13 15:59:01,014][    INFO] Iters: 288, Total loss: 0.043, Loss x: 0.051, Loss s: 0.062, Loss w_fp: 0.007, Mask ratio: 0.860
+[2023-06-13 16:00:53,262][    INFO] Iters: 432, Total loss: 0.043, Loss x: 0.051, Loss s: 0.064, Loss w_fp: 0.007, Mask ratio: 0.863
+[2023-06-13 16:02:46,503][    INFO] Iters: 576, Total loss: 0.044, Loss x: 0.051, Loss s: 0.065, Loss w_fp: 0.007, Mask ratio: 0.864
+[2023-06-13 16:04:38,694][    INFO] Iters: 720, Total loss: 0.043, Loss x: 0.051, Loss s: 0.065, Loss w_fp: 0.007, Mask ratio: 0.866
+[2023-06-13 16:06:31,196][    INFO] Iters: 864, Total loss: 0.044, Loss x: 0.051, Loss s: 0.067, Loss w_fp: 0.007, Mask ratio: 0.867
+[2023-06-13 16:08:23,464][    INFO] Iters: 1008, Total loss: 0.044, Loss x: 0.050, Loss s: 0.067, Loss w_fp: 0.007, Mask ratio: 0.867
+[2023-06-13 16:10:16,033][    INFO] Iters: 1152, Total loss: 0.044, Loss x: 0.050, Loss s: 0.067, Loss w_fp: 0.007, Mask ratio: 0.867
+[2023-06-13 16:10:43,459][    INFO] ***** Evaluation ***** >>>> Class [0 background] IoU: 93.33
+[2023-06-13 16:10:43,459][    INFO] ***** Evaluation ***** >>>> Class [1 aeroplane] IoU: 89.67
+[2023-06-13 16:10:43,459][    INFO] ***** Evaluation ***** >>>> Class [2 bicycle] IoU: 42.91
+[2023-06-13 16:10:43,459][    INFO] ***** Evaluation ***** >>>> Class [3 bird] IoU: 79.23
+[2023-06-13 16:10:43,459][    INFO] ***** Evaluation ***** >>>> Class [4 boat] IoU: 67.00
+[2023-06-13 16:10:43,459][    INFO] ***** Evaluation ***** >>>> Class [5 bottle] IoU: 75.94
+[2023-06-13 16:10:43,459][    INFO] ***** Evaluation ***** >>>> Class [6 bus] IoU: 93.83
+[2023-06-13 16:10:43,459][    INFO] ***** Evaluation ***** >>>> Class [7 car] IoU: 88.92
+[2023-06-13 16:10:43,460][    INFO] ***** Evaluation ***** >>>> Class [8 cat] IoU: 90.82
+[2023-06-13 16:10:43,460][    INFO] ***** Evaluation ***** >>>> Class [9 chair] IoU: 30.02
+[2023-06-13 16:10:43,460][    INFO] ***** Evaluation ***** >>>> Class [10 cow] IoU: 83.74
+[2023-06-13 16:10:43,460][    INFO] ***** Evaluation ***** >>>> Class [11 dining table] IoU: 46.93
+[2023-06-13 16:10:43,460][    INFO] ***** Evaluation ***** >>>> Class [12 dog] IoU: 85.96
+[2023-06-13 16:10:43,460][    INFO] ***** Evaluation ***** >>>> Class [13 horse] IoU: 83.07
+[2023-06-13 16:10:43,460][    INFO] ***** Evaluation ***** >>>> Class [14 motorbike] IoU: 85.05
+[2023-06-13 16:10:43,460][    INFO] ***** Evaluation ***** >>>> Class [15 person] IoU: 84.33
+[2023-06-13 16:10:43,460][    INFO] ***** Evaluation ***** >>>> Class [16 potted plant] IoU: 50.21
+[2023-06-13 16:10:43,460][    INFO] ***** Evaluation ***** >>>> Class [17 sheep] IoU: 84.18
+[2023-06-13 16:10:43,460][    INFO] ***** Evaluation ***** >>>> Class [18 sofa] IoU: 40.39
+[2023-06-13 16:10:43,460][    INFO] ***** Evaluation ***** >>>> Class [19 train] IoU: 87.73
+[2023-06-13 16:10:43,460][    INFO] ***** Evaluation ***** >>>> Class [20 tv/monitor] IoU: 66.76
+[2023-06-13 16:10:43,460][    INFO] ***** Evaluation original ***** >>>> MeanIoU: 73.81
+
+[2023-06-13 16:10:43,944][    INFO] ===========> Epoch: 79, LR: 0.00002, Previous best: 74.92
+[2023-06-13 16:10:44,717][    INFO] Iters: 0, Total loss: 0.040, Loss x: 0.047, Loss s: 0.063, Loss w_fp: 0.003, Mask ratio: 0.914
+[2023-06-13 16:12:36,051][    INFO] Iters: 144, Total loss: 0.044, Loss x: 0.049, Loss s: 0.069, Loss w_fp: 0.009, Mask ratio: 0.861
+[2023-06-13 16:14:28,279][    INFO] Iters: 288, Total loss: 0.044, Loss x: 0.050, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.863
+[2023-06-13 16:16:20,004][    INFO] Iters: 432, Total loss: 0.044, Loss x: 0.050, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.865
+[2023-06-13 16:18:12,538][    INFO] Iters: 576, Total loss: 0.043, Loss x: 0.050, Loss s: 0.065, Loss w_fp: 0.008, Mask ratio: 0.867
+[2023-06-13 16:20:04,729][    INFO] Iters: 720, Total loss: 0.043, Loss x: 0.050, Loss s: 0.066, Loss w_fp: 0.007, Mask ratio: 0.867
+[2023-06-13 16:21:56,495][    INFO] Iters: 864, Total loss: 0.044, Loss x: 0.050, Loss s: 0.066, Loss w_fp: 0.008, Mask ratio: 0.866
+[2023-06-13 16:23:48,018][    INFO] Iters: 1008, Total loss: 0.044, Loss x: 0.050, Loss s: 0.067, Loss w_fp: 0.008, Mask ratio: 0.867
+[2023-06-13 16:25:40,834][    INFO] Iters: 1152, Total loss: 0.044, Loss x: 0.050, Loss s: 0.068, Loss w_fp: 0.008, Mask ratio: 0.866
